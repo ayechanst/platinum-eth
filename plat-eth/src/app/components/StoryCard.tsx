@@ -1,22 +1,32 @@
 "use client";
-const StoryCard = () => {
+import { motion } from "framer-motion";
+
+interface StoryCardProps {
+  title: string;
+  subTitle: string;
+  text: string;
+}
+
+const StoryCard: React.FC<StoryCardProps> = ({
+  title,
+  subTitle,
+  text,
+}) => {
   return (
-    <div>
-      <div className="card w-96 bg-neutral text-neutral-content">
-        <div className="card-body items-center text-center">
-          <h2 className="card-title">Story Time!</h2>
-          <p>Here is a lit ass story:</p>
-          <div>
-            There once was a little dude who was too
-            concerned about what sort of cheese his father
-            was eating. One day he began to check the cheese
-            his mother was bringing home so he could throw
-            it away if it was too unhealthy for his father.
-            No cap.
-          </div>
-        </div>
+    <motion.div
+      whileHover={{
+        scale: 1.05,
+        boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.2)",
+      }}
+      transition={{ duration: 0.1 }}
+      className="card w-96 bg-neutral text-neutral-content"
+    >
+      <div className="card-body items-center text-center">
+        <h2 className="card-title">{title}</h2>
+        <p>{subTitle}</p>
+        <div>{text}</div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 export default StoryCard;
