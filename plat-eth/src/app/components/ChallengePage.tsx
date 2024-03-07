@@ -1,9 +1,30 @@
+import { ChallengePageContent } from "../challenge1/content";
+import Checkpoint from "./Checkpoint";
 import Layout from "./Layout";
 
-const ChallengePage: React.FC = () => {
+interface ChallengePageProps {
+  objects: ChallengePageContent[];
+}
+
+const ChallengePage: React.FC<ChallengePageProps> = ({
+  objects,
+}) => {
   return (
     <div>
-      <Layout>Challenge page yeahhhhhh!!!!</Layout>
+      <Layout>
+        <div className="flex flex-col">
+          {objects.map((object) => {
+            return (
+              <div className="flex m-10 bg-teal-600 rounded-2xl shadow-xl">
+                <Checkpoint
+                  name={object.checkpointTitle}
+                  moduleNames={object.checkpointModules}
+                />
+              </div>
+            );
+          })}
+        </div>
+      </Layout>
       {/* for each object, make a Checkpoint.tsx 
       for each Checkpoint.tsx, make a ModuleButton.tsx */}
     </div>

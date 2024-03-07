@@ -1,13 +1,13 @@
+import ChallengePage from "../components/ChallengePage";
 import Layout from "../components/Layout";
+import challengePageContent from "./content";
 
 const Challenge1 = () => {
   return (
     <>
-      <Layout>
-        <div>
-          ChallengePage.tsx goes here and populate it!
-        </div>
-      </Layout>
+      <div>
+        <ChallengePage objects={challengePageContent} />
+      </div>
     </>
   );
 };

@@ -1,4 +1,10 @@
-export const challengePageContent = [
+export interface ChallengePageContent {
+  id: number;
+  checkpointTitle: string;
+  checkpointModules: string[];
+}
+
+const challengePageContent: ChallengePageContent[] = [
   {
     id: 1,
     checkpointTitle: "Checkpoint 1: ⛽️ Gas & Wallets 👛",
@@ -20,3 +26,4 @@ export const challengePageContent = [
     checkpointModules: ["Network", "Deploying"],
   },
 ];
+export default challengePageContent;

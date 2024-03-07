@@ -6,9 +6,9 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => (
   <>
-    <div>
+    {/* <div>
       <NavBar />
-    </div>
+    </div> */}
     <div className="flex h-screen overflow-auto">
       <div className="w-1/5 bg-teal-800"></div>{" "}
       {/* Left Sidebar */}
