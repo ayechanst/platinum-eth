@@ -19,7 +19,7 @@ const StoryCard: React.FC<StoryCardProps> = ({
         boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.2)",
       }}
       transition={{ duration: 0.1 }}
-      className="card w-96 bg-neutral text-neutral-content"
+      className="card bg-neutral text-neutral-content"
     >
       <div className="card-body items-center text-center">
         <h2 className="card-title">{title}</h2>
