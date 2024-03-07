@@ -12,7 +12,7 @@ const Prelude = () => {
     id: 2,
     title: "Skill Gap",
     subTitle: "What is a skill gap?",
-    text: "",
+    text: "It's when accomplishing a task requires a level of skill beyond the skill of the user. That's a skill gap now what is a skill? A skill is an action.",
   };
   const story3 = {
     id: 3,
