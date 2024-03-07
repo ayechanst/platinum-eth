@@ -25,8 +25,6 @@ const ChallengePage: React.FC<ChallengePageProps> = ({
           })}
         </div>
       </Layout>
-      {/* for each object, make a Checkpoint.tsx 
-      for each Checkpoint.tsx, make a ModuleButton.tsx */}
     </div>
   );
 };
