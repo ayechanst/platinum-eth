@@ -4,7 +4,9 @@ const Challenge1 = () => {
   return (
     <>
       <Layout>
-        <div>yes</div>
+        <div>
+          ChallengePage.tsx goes here and populate it!
+        </div>
       </Layout>
     </>
   );
