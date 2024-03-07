@@ -9,23 +9,30 @@ const Prelude = () => {
     text: "Plat-Eth is designed to bridge the gap between the skills speedrunethereum provides, and the knowledge that the speed-runner must research on their own.",
   };
   const story2 = {
-    id: 1,
+    id: 2,
     title: "Skill Gap",
-    subTitle: "",
+    subTitle: "What is a skill gap?",
     text: "",
   };
   const story3 = {
-    id: 1,
-    title: "Skill Gap",
-    subTitle: "",
+    id: 3,
+    title: "Knowledge Gap",
+    subTitle: "What is a knowledge gap?",
     text: "",
   };
   const story4 = {
-    id: 1,
-    title: "Skill Gap",
-    subTitle: "",
+    id: 4,
+    title: "Bridging the Two",
+    subTitle: "Plat-Eth solves what problem?",
     text: "",
   };
+  const story5 = {
+    id: 5,
+    title: "Advanced Memory Techniques",
+    subTitle: "Why is Plat-Eth different?",
+    text: "",
+  };
+
   return (
     <>
       <Layout>
@@ -33,6 +40,26 @@ const Prelude = () => {
           title={story1.title}
           subTitle={story1.subTitle}
           text={story1.text}
+        />
+        <StoryCard
+          title={story2.title}
+          subTitle={story2.subTitle}
+          text={story2.text}
+        />
+        <StoryCard
+          title={story3.title}
+          subTitle={story3.subTitle}
+          text={story3.text}
+        />
+        <StoryCard
+          title={story4.title}
+          subTitle={story4.subTitle}
+          text={story4.text}
+        />
+        <StoryCard
+          title={story5.title}
+          subTitle={story5.subTitle}
+          text={story5.text}
         />
       </Layout>
     </>
