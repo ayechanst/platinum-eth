@@ -19,6 +19,7 @@ const Checkpoint: React.FC<CheckpointProps> = ({
       </div>
       <div className="flex flex-wrap">
         {moduleNames.map((module) => {
+          console.log(module);
           return <ModuleButton name={module} />;
         })}
       </div>

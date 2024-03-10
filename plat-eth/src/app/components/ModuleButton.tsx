@@ -12,19 +12,15 @@ const ModuleButton: React.FC<ModuleButtonProps> = ({
 }) => {
   const lowercaseName = name.trim().toLowerCase();
 
+  if (lowercaseName === "accounts") {
+    console.log(lowercaseName);
+  }
   return (
     <>
-      <Link href={`/${lowercaseName}`}>
-        <motion.a
-          className="inline-flex mx-5 items-center justify-center bg-teal-200 text-gray-800 font-bold h-full py-2 px-4 rounded-2xl"
-          whileHover={{
-            scale: 0.95,
-            boxShadow: "0 0 20px rgba(255, 255, 255, 0.5)",
-          }}
-          transition={{ duration: 0.3 }}
-        >
+      <Link href={`../challenge1/${lowercaseName}`}>
+        <div className="inline-flex mx-5 items-center justify-center bg-teal-200 text-gray-800 font-bold h-full py-2 px-4 rounded-2xl">
           {name}
-        </motion.a>
+        </div>
       </Link>
     </>
   );
