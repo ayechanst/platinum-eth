@@ -9,7 +9,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => (
     {/* <div>
       <NavBar />
     </div> */}
-    <div className="flex h-screen overflow-auto">
+    <div className="flex h-screen">
       <div className="w-1/5 bg-teal-800"></div>{" "}
       {/* Left Sidebar */}
       <div className="flex-1 flex justify-center items-center bg-teal-700">

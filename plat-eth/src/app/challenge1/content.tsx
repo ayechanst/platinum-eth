@@ -40,7 +40,8 @@ export const challengePageContent: ChallengePageContent[] =
 export const accountPageContent: AccountPageContent = {
   id: 1,
   modulePageName: "Accounts",
-  introStory: "You arrive at an abandoned train station.",
+  introStory:
+    "An account is a very cozy little train station that lives on a gigantic block in outer space. As you stand in front of the train station, you see a tranquil little pond with lilly pads, and you can smell the mud and feel the freshness radiating from the little pond. You can taste familiarity when you stand on the little cobblestone path leading up to the train stations front door.",
   vocabulary: [
     "Private Key",
     "Public Key",

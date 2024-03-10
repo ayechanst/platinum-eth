@@ -6,8 +6,21 @@ const Vocabulary: React.FC<VocabularyProps> = ({
 }) => {
   return (
     <>
-      <div className="p-5 m-5 bg-yellow-500">
-        vocab: {vocab}{" "}
+      <div className="m-5 bg-teal-500">
+        <div className="p-2 text-bold text-xl">
+          Important Items:
+        </div>
+        <div className="glass p-5">
+          <ol>
+            {vocab.map((word, key) => {
+              return (
+                <li key={key}>
+                  {key + 1}: {word}
+                </li>
+              );
+            })}
+          </ol>
+        </div>
       </div>
     </>
   );
