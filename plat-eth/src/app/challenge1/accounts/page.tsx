@@ -1,7 +1,12 @@
+import ModulePage from "@/app/components/ModulePage";
+import { accountPageContent } from "../content";
+
 const AccountPage = () => {
   return (
     <>
-      <div>// mdoulepage</div>
+      <div>
+        <ModulePage object={accountPageContent} />
+      </div>
     </>
   );
 };

@@ -1,3 +1,4 @@
+"use client";
 import { ChallengePageContent } from "../challenge1/content";
 import Checkpoint from "./Checkpoint";
 import Layout from "./Layout";
@@ -15,7 +16,10 @@ const ChallengePage: React.FC<ChallengePageProps> = ({
         <div className="flex flex-col">
           {objects.map((object) => {
             return (
-              <div className="flex m-10 bg-teal-600 rounded-2xl shadow-xl">
+              <div
+                className="flex m-10 bg-teal-600 rounded-2xl shadow-xl"
+                key={object.id}
+              >
                 <Checkpoint
                   name={object.checkpointTitle}
                   moduleNames={object.checkpointModules}

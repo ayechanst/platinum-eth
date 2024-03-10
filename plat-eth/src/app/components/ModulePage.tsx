@@ -1,18 +1,40 @@
+import { AccountPageContent } from "../challenge1/content";
+import IntroStory from "./IntoStory";
 import Layout from "./Layout";
+import Submodule from "./Submodule";
+import Vocabulary from "./Vocabulary";
 
 interface ModulePageProps {
-  modulePageName: string;
+  object: AccountPageContent;
 }
 
 const ModulePage: React.FC<ModulePageProps> = ({
-  modulePageName,
+  object,
 }) => {
+  const submoduleArray = object.submodules;
   return (
     <>
       <div>
         <Layout>
-          // intro story // important info // story card //
-          info card
+          <IntroStory introStory={object.introStory} />
+          <Vocabulary vocab={object.vocabulary} />
+          <div>
+            {submoduleArray.map((submodule) => {
+              return (
+                <div>
+                  <Submodule
+                    submoduleName={submodule.submoduleName}
+                    submoduleStory={
+                      submodule.submoduleStory
+                    }
+                    submoduleExplanation={
+                      submodule.submoduleExplanation
+                    }
+                  />
+                </div>
+              );
+            })}
+          </div>
         </Layout>
       </div>
     </>

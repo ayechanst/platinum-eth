@@ -1,6 +1,6 @@
 import ChallengePage from "../components/ChallengePage";
 import Layout from "../components/Layout";
-import challengePageContent from "./content";
+import { challengePageContent } from "./content";
 
 const Challenge1 = () => {
   return (

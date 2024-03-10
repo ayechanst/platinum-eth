@@ -6,7 +6,8 @@ const IntroStory: React.FC<IntroStoryProps> = ({
 }) => {
   return (
     <>
-      <div>
+      <div className="p-5 m-5 bg-blue-700">
+        intro story:
         <p>{introStory}</p>
       </div>
     </>
