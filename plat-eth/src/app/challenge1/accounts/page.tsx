@@ -1,4 +1,4 @@
-import ModulePage from "@/app/components/ModulePage";
+import ModulePage from "@/app/components/modules/ModulePage";
 import { accountPageContent } from "../content";
 
 const AccountPage = () => {

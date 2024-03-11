@@ -7,6 +7,7 @@ export interface ChallengePageContent {
 export interface AccountPageContent {
   id: number;
   modulePageName: string;
+  header: string;
   introStory: string;
   vocabulary: string[];
   submodules: any[];
@@ -40,6 +41,7 @@ export const challengePageContent: ChallengePageContent[] =
 export const accountPageContent: AccountPageContent = {
   id: 1,
   modulePageName: "Accounts",
+  header: "Accounts are train stations",
   introStory:
     "An account is a very cozy little train station that lives on a gigantic block in outer space. As you stand in front of the train station, you see a tranquil little pond with lilly pads, and you can smell the mud and feel the freshness radiating from the little pond. You can taste familiarity when you stand on the little cobblestone path leading up to the train stations front door.",
   vocabulary: [
