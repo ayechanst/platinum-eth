@@ -5,6 +5,7 @@ import Submodule from "./Submodule";
 import Summary from "../Summary";
 import Vocabulary from "./Vocabulary";
 import SubmoduleTwo from "./SubmoduleTwo";
+import SubmoduleThree from "./SubmoduleThree";
 
 interface ModulePageProps {
   object: AccountPageContent;
@@ -42,7 +43,7 @@ const ModulePage: React.FC<ModulePageProps> = ({
             {submoduleArray.map((submodule) => {
               return (
                 <div>
-                  <SubmoduleTwo
+                  <SubmoduleThree
                     submoduleName={submodule.submoduleName}
                     submoduleStory={
                       submodule.submoduleStory
