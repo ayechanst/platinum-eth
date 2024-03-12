@@ -25,7 +25,7 @@ const SubmoduleThree: React.FC<SubmoduleProps> = ({
             />
           </figure>
         </div>
-        <div className="flex pl-5 flex-col place-items-center">
+        <div className="flex pl-5 flex-col place-items-center justify-center">
           <div className="bg-teal-900 py-3 p-3 place-items-center rounded-t-xl">
             {submoduleStory}
           </div>

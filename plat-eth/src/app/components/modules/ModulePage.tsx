@@ -1,8 +1,8 @@
 import { AccountPageContent } from "../../challenge1/content";
 import IntroStory from "./IntoStory";
 import Layout from "../Layout";
-import Submodule from "./Submodule";
 import Summary from "../Summary";
+import Submodule from "./Submodule";
 import Vocabulary from "./Vocabulary";
 import SubmoduleTwo from "./SubmoduleTwo";
 import SubmoduleThree from "./SubmoduleThree";
@@ -39,21 +39,57 @@ const ModulePage: React.FC<ModulePageProps> = ({
             </figure>
             <IntroStory introStory={object.introStory} />
           </div>
-          <div className="w-3/5">
+          <div className="w-4/5 flex flex-wrap justify-center">
             {submoduleArray.map((submodule) => {
-              return (
-                <div>
-                  <SubmoduleThree
-                    submoduleName={submodule.submoduleName}
-                    submoduleStory={
-                      submodule.submoduleStory
-                    }
-                    submoduleExplanation={
-                      submodule.submoduleExplanation
-                    }
-                  />
-                </div>
-              );
+              if (submodule.id % 3 === 0) {
+                return (
+                  <div className="ml-20 mb-20">
+                    <SubmoduleThree
+                      submoduleName={
+                        submodule.submoduleName
+                      }
+                      submoduleStory={
+                        submodule.submoduleStory
+                      }
+                      submoduleExplanation={
+                        submodule.submoduleExplanation
+                      }
+                    />
+                  </div>
+                );
+              } else if (submodule.id % 2 === 0) {
+                return (
+                  <div className="ml-10">
+                    <SubmoduleTwo
+                      submoduleName={
+                        submodule.submoduleName
+                      }
+                      submoduleStory={
+                        submodule.submoduleStory
+                      }
+                      submoduleExplanation={
+                        submodule.submoduleExplanation
+                      }
+                    />
+                  </div>
+                );
+              } else {
+                return (
+                  <div className="ml-15">
+                    <Submodule
+                      submoduleName={
+                        submodule.submoduleName
+                      }
+                      submoduleStory={
+                        submodule.submoduleStory
+                      }
+                      submoduleExplanation={
+                        submodule.submoduleExplanation
+                      }
+                    />
+                  </div>
+                );
+              }
             })}
           </div>
           <Summary summary={object.summary} />

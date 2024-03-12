@@ -18,11 +18,11 @@ const Submodule: React.FC<SubmoduleProps> = ({
             <h2 className="text-bold text-5xl p-5">
               {submoduleName}
             </h2>
-            <figure className="shadow-2xl">
+            <figure>
               <img
                 src={`${picture}`}
                 alt="Shoes"
-                className="rounded-xl"
+                className="rounded-xl shadow-xl"
               />
             </figure>
           </div>
