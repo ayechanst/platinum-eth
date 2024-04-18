@@ -1,4 +1,5 @@
 import fs from "fs";
+import Markdown from "markdown-to-jsx";
 
 const getPostContent = (slug: string) => {
   const folder = "posts/";
@@ -13,7 +14,7 @@ const PostPage = (props: any) => {
   return (
     <>
       <div>This is a post baby: {slug}</div>
-      <div>{content}</div>
+      <Markdown>{content}</Markdown>
     </>
   );
 };
