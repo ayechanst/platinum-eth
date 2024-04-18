@@ -12,4 +12,4 @@ some NFT's.
 We will cover accounts, wallets, and smart
 contracts
 
-![A train station](../public/images/train-station.svg)
+![A train station](http://localhost:3000/images/train-station.svg)
