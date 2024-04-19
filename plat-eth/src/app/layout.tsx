@@ -1,10 +1,12 @@
+import "../../styles/globals.css";
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   const header = (
-    <header>
+    <header className="text-center">
       <div>
         <h1>Platinum Ethereum</h1>
         <br />
@@ -25,9 +27,11 @@ export default function RootLayout({
     <html>
       <head />
       <body>
-        {header}
-        {children}
-        {footer}
+        <div className="mx-auto max-w-2xl">
+          {header}
+          {children}
+          {footer}
+        </div>
       </body>
     </html>
   );
