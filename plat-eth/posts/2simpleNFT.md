@@ -8,9 +8,13 @@ data: "2024-04-20"
 
 Lets start with Gas and Wallets
 
+---
+
 ### Checkpoint 2: 🖨 Minting
 
 Now we will mint some epic NFTs. Don't worry this is on God.
+
+---
 
 ### Checkpoint 3: 💾 Deploy your contract! 🛰
 
