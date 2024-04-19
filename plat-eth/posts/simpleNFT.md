@@ -1,10 +1,8 @@
 ---
-title: "Simple NFT"
-subtitle: "The easiest it gets!"
+title: "🎟 Simple NFT Example"
+subtitle: "🎫 Create a simple NFT to learn basics of 🏗 Scaffold-ETH 2."
 data: "2024-04-20"
 ---
-
-# Simple NFT
 
 In this challege you will be sending yourself
 some NFT's.

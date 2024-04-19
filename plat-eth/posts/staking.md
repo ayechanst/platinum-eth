@@ -1,14 +1,12 @@
 ---
-title: "Staking brah"
-subtitle: "You will not be eating steak"
+title: "🥩 Decentralized Staking App"
+subtitle: "In this challenge, you create a decentralized application where users can coordinate a group funding effort."
 data: "2024-04-20"
 ---
-
-# Staking
 
 This challenge you will uncover the power of
 smart contracts
 
 This is not cap.
 
-![trains boi](../public/images/train.svg)
+![trains boi](http://localhost:3000/images/train.svg)

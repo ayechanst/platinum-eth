@@ -1,10 +1,8 @@
 ---
-title: "Vendor Of Tokens"
-subtitle: "Swear on my life no gas!"
+title: "🏵 Token Vendor"
+subtitle: "Let's make a decentralized, digital currency (an ERC20 token). Then, let's build an unstoppable vending machine that will buy and sell the currency."
 data: "2024-04-20"
 ---
-
-# Token Vendor
 
 Here you will interact with a smart
 contract.

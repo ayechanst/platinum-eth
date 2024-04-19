@@ -1,10 +1,8 @@
 ---
-title: "Dice Game"
+title: "🎲 Dice Game"
 subtitle: "Rig a friggin roll cant"
 data: "2024-04-20"
 ---
-
-# Dice Game
 
 Learn to rig a roll! What does that mean?
 
