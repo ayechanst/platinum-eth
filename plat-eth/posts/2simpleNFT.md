@@ -1,6 +1,6 @@
 ---
 title: "🎟 Simple NFT Example"
-subtitle: "🎫 Create a simple NFT to learn basics of 🏗 Scaffold-ETH 2."
+subtitle: "Create a simple NFT to learn basics of 🏗 Scaffold-ETH 2."
 data: "2024-04-20"
 ---
 
