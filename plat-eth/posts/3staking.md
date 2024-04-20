@@ -4,9 +4,6 @@ subtitle: "In this challenge, you create a decentralized application where users
 data: "2024-04-20"
 ---
 
-This challenge you will uncover the power of
-smart contracts
+Coming Soon!
 
-This is not cap.
-
-![trains boi](http://localhost:3000/images/train.svg)
+<!-- ![trains boi](http://localhost:3000/images/train.svg) -->

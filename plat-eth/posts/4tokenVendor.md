@@ -4,8 +4,6 @@ subtitle: "Let's make a decentralized, digital currency (an ERC20 token). Then, 
 data: "2024-04-20"
 ---
 
-Here you will interact with a smart
-contract.
+Coming Soon!
 
-It will vend tokens, and you will be able
-to withdraw MONEY!!! Yeah!!
+---

@@ -1,11 +1,9 @@
 ---
 title: "🎲 Dice Game"
-subtitle: "Rig a friggin roll cant"
+subtitle: "Randomness is tricky on a public deterministic blockchain."
 data: "2024-04-20"
 ---
 
-Learn to rig a roll! What does that mean?
+Coming Soon!
 
-> Yeah boi you know what it is its big dawg up in here yaready know
-
-Who knows?! Let's find out on GOD.
+---
