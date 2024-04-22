@@ -10,7 +10,7 @@ import {
 } from "../../../../components/MarkdownComponents";
 
 const getPostContent = (slug: string) => {
-  const folder = "posts/";
+  const folder = "almanacPosts/";
   const file = `${folder}${slug}.md`;
   const content = fs.readFileSync(file, "utf8");
   const matterResult = matter(content);
@@ -18,7 +18,7 @@ const getPostContent = (slug: string) => {
 };
 
 export const generateStaticParams = async () => {
-  const posts = getPostMetaData("posts");
+  const posts = getPostMetaData("almanacPosts");
   return posts.map((post) => ({
     slug: post.slug,
   }));

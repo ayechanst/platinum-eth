@@ -2,15 +2,15 @@ import fs from "fs";
 import matter from "gray-matter";
 import { PostMetadata } from "./PostMetadata";
 
-const getPostMetaData = (): PostMetadata[] => {
-  const folder = "posts/";
+const getPostMetaData = (route: string): PostMetadata[] => {
+  const folder = `${route}/`;
   const files = fs.readdirSync(folder);
   const markdownPosts = files.filter((file) =>
     file.endsWith(".md")
   );
   const posts = markdownPosts.map((fileName) => {
     const fileContents = fs.readFileSync(
-      `posts/${fileName}`,
+      `${route}/${fileName}`,
       "utf-8"
     );
     const matterResult = matter(fileContents);
@@ -19,6 +19,7 @@ const getPostMetaData = (): PostMetadata[] => {
       date: matterResult.data.date,
       subtitle: matterResult.data.subtitle,
       slug: fileName.replace(".md", ""),
+      folder: route,
     };
   });
   return posts;
