@@ -3,7 +3,9 @@ import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
 import getPostMetaData from "../../../../components/getPostMetadata";
 import {
-  CustomHeading,
+  CustomHeading1,
+  CustomHeading2,
+  CustomHeading3,
   CustomParagraph,
 } from "../../../../components/MarkdownComponents";
 
@@ -25,7 +27,13 @@ export const generateStaticParams = async () => {
 const options = {
   overrides: {
     h1: {
-      component: CustomHeading,
+      component: CustomHeading1,
+    },
+    h2: {
+      component: CustomHeading2,
+    },
+    h3: {
+      component: CustomHeading3,
     },
     p: {
       component: CustomParagraph,

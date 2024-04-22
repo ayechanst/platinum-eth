@@ -7,9 +7,27 @@ data: "2024-04-20"
 # Checkpoint 1: ⛽️ Gas & Wallets 👛
 
 So the first step is connecting your burner wallet. What does that even mean really?
-Burner wallets will make later when you understand what a normal wallet is. And
-before covering what a wallet is, we need to cover what wallets hold, which are
-accounts.
+What is a wallet? What is a burner wallet? We'll cover those later, but first we will
+cover **accounts**, which is what wallets hold.
+
+## Accounts
+
+What are accounts? There are two types of accounts, and you've interacted with both
+by connecting your burner wallet! The first kind is an externally owned account, or
+EOA for short, and the second kind are smart contract.
+
+Accounts are a fundamental concept for blockchains, so fundamental that the Ethereum
+network can be boiled down in one sentence using accounts:
+
+> A network of accounts sending transactions to each other.
+
+<details>
+  <summary>Can you guess what type of account you connected your wallet to? (click for answer)</summary>
+
+A smart contract account! You connected to it so you can grab funds. Or rather, request that
+the smart contract give you funds through a transaction.
+
+</details>
 
 ---
 

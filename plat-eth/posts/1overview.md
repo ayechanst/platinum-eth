@@ -38,7 +38,7 @@ friendly way.
 Plat-Eth is built around a pedagogy I developed through reading books on teaching and learning, and
 having extensive conversations about them with my peers. Here is the breakdown of the pedagogy.
 
-#### Models
+### Models
 
 I wrote an article about models on Medium that goes into more detail [here](https://medium.com/@ayechansant/5-steps-to-learn-anything-using-models-db7dadb1e492).
 
@@ -52,13 +52,13 @@ A pre-built model is a large part of the value Plat-Eth brings to people. Learni
 is about lowering the friction between gaining and remembering information. If people
 are given a model, they don't have to spend time building their own.
 
-#### A Learning Path
+### A Learning Path
 
 Standing on the shoulders of giants, Plat-Eth is meant to be experienced alongside Speed Run Ethereum.
 This design choice was made so that people could learn about a concept, and either immediately apply
 their knowledge, or see the concept work in front of them through the SRE challenges.
 
-#### A Memory Device
+### A Memory Device
 
 What makes Plat-Eth different from other Web3 educational resources is its emmbedded memory framework.
 Its designed specifically to make information easy to recall at a later date, decreasing the amount of
