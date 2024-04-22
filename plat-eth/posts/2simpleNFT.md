@@ -16,15 +16,6 @@ What are accounts? There are two types of accounts, and you've interacted with b
 by connecting your burner wallet! The first kind is an externally owned account, or
 EOA for short, and the second kind are smart contracts.
 
----
-
-###### Jargon Alert!
-
-People shorten "smart contract accounts" to just "smart contracts". But in the back
-of your head just remember: all smart contracts are accounts!
-
----
-
 Accounts are a fundamental concept for blockchains, so fundamental that the Ethereum
 network can be boiled down in one sentence using accounts:
 
@@ -38,17 +29,7 @@ the smart contract give you funds through a transaction.
 
 </details>
 
-We will talk about smart contracts later, because they are more complicated than
-externally owned accounts, which I will refer to as EOAs from here on. How should we
-explain and remember EOAs? Think of them as train stations, they have a lot in common.
-
-| Train Stations | EOAs         |
-| -------------- | ------------ |
-| keys           | keys         |
-| addresses      | addresses    |
-| balances       | balances     |
-| sends trains   | sends trains |
-| nonces         |              |
+How should we explain and remember EOAs? Think of them as train stations, they have a lot in common.
 
 Wait, send trains? EOAs can't send trains they arn't even a physical construct. You are
 right, but I will extend the analogy of EOAs as train stations, to transactions being
@@ -58,7 +39,7 @@ from the faucet you connected to, picture this:
 > A train station (you) sends a train (trainsaction) carrying instructions to the factory (the smart contract). The factory executes the instructions, and sends you back a train full of money!
 
 As stated earlier, almost everything is either a train station, or a factory, and they
-all communicate and trade using trains!
+all communicate and trade using trains! Now lets zoom in on EAOs to see how they work.
 
 ---
 
