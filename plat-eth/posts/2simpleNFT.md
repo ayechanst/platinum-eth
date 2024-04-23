@@ -8,93 +8,83 @@ data: "2024-04-20"
 
 The first step to this challenge is connecting your burner wallet so you can grab
 funds to pay for gas. Why do we need to connect our wallets and pay for gas? We're
-not even driving anywhere. In this checkpoint, we briefly cover the building blocks
-of Platinum-Ethereum, then explain what gas and wallets are. If you're feeling antsy
-and want to dive deeper under to hood, click the header links to find out more!
+not even driving anywhere. And what's the difference between an account and a
+wallet?
 
-## [Accounts](/almanacPosts/accounts) and Transactions
+In this challenge we will cover the basics of accounts, transactions, wallets, and
+gas. Follow your curiosity! Click the headers to be taken to the [alamanac](/almanacPosts)
+where concepts are explained in more detail, and learn about the Platinum-Ethereum
+cannonical universe!
 
-What are accounts? There are two types of accounts, and you've interacted with both
-by connecting your burner wallet! If you collected funds already, than you've already
-made a transaction! The first kind of account is an externally owned account, or
-EOA for short, and the second kind is a smart contract account.
+## [Accounts](/almanacPosts/accounts)
+
+What are accounts? There are two types of accounts, and by the end of the challenge
+you'll have interacted with both!
+
+1. The first kind of account is an externally owned account, or EOA for short. These
+   accounts are owned by real people, hence the externally owned part. The jargon for
+   externally owned accounts are EOA, or just accounts.
+
+2. The second kind is a smart contract account. People just call these smart contracts
+   for short. But just know, smart contracts are technically accounts too!
 
 <details>
   <summary>Can you guess what type of account you connected your wallet to? (click for answer)</summary>
 
-> A smart contract account! You connected to it so you can grab funds to pay for gas.
+> A smart contract account!
 
 </details>
 
-Let's break everything down, then explain the process that happened when you got your funds.
+<!-- ## Wallets ![wallet](http://localhost:3000/images/wallet.svg) -->
+<h2>Wallets <img src="http://localhost:3000/images/wallet.svg" alt="wallet"></h2>
+
+<!-- ![A train station](http://localhost:3000/images/train-station.svg) -->
+
 We can use the words accounts and transactions to describe the Ethereum ecosystem in the most
 general sense.
 
 > Ethereum is network of accounts sending transactions to each other.
 
-##### Transactions
+#### Transactions
 
-Anything sent between accounts are transactions. What do they look like? They are just like trains.
-They come from somewhere, they go somewhere, they use fuel, and they carry stuff! In fact, the gas
-you're grabbing funds for is the train fuel. Think of transactions as "train-sactions".
+Anything sent between accounts are transactions. What do they look like? Transactions are just like trains.
+They come from somewhere, they go somewhere, they use fuel, and they carry stuff! In fact, the funds
+you're grabbing is the fuel for the train. In the next step, you're going to be minting some NFTs,
+and you'll need gas to power the trains! Think of transactions as "train-sactions".
 
-##### Externally Owned Account (EOA)
+#### Externally Owned Account (EOA)
 
 These accounts are controlled by real people, and are the only account that can initiate transactions.
 You know what else initiates train-sactions? Train stations! Think of EOAs as train stations. They are
 where trains are initiated on their journey across the blockchain!
 
-##### Smart Contract Account (also known simply as: smart contract)
+What's the difference between an
+EOA and a wallet? They seem very similar. Wallets are software that manages your accounts. Think of them
+as... robot butlers. They work behind your screen and pull levers so you don't have to. One
+wallet can manage several accounts, just like how a butler can manage several train stations.
 
-Smart contracts are accounts that no one has access to. They receive train-sactions, and do stuff! No
-one is allowed in a smart contract. What other type of building receives "stuff" and returns other
-"stuff"? Factories! Fully autonamous factories where no humans are allowed. Think of smart contracts
-as factories.
-
----
-
-<details>
-  <summary>Why did the smart contract you connected to not just send you funds automatically?</summary>
-
-> Because only EOAs can initiate transations! Smart contracts are powerful but they need "stuff" sent to them in order for them to send anything back.
-
-</details>
+The difference is important as wallets and accounts are conflated often. Metamask even has a article
+about it: [What's the difference between a wallet and an account?](https://support.metamask.io/hc/en-us/articles/13466457757211-What-s-the-difference-between-a-wallet-and-an-account)
 
 ---
 
 # Checkpoint 2: 🖨 Minting
 
-Think of Ethereum accounts as buildings on a block. There are two sorts of accounts,
-normal accounts and smart contract accounts. Normal accounts are for holding value
-and are also known as EOAs (Externally Owned Accounts), because they are owned by
-humans. This section is about EOAs. EOAs can be thought of as train stations.
+Once you have your funds, we can start minting! Let's break everything down so we know exactly what is
+going on.
 
-Why? The Ethereum ecosystem is a network of accounts interacting with each other
-through transactions. Think of transactions as trains, or trainsactions.
+#### Smart Contract Account
+
+Smart contracts are accounts that no one has access to. They receive train-sactions, and do stuff! No
+one is allowed in a smart contract. What other type of building receives "stuff" and returns other
+"stuff"? Factories! Fully autonamous factories where no humans are allowed. Think of smart contracts
+as factories. Also "smart contract" is jargon for "smart contract account". People don't specify that
+they're accounts but just know this in the back of your head:
+
+> Smart contracts are accounts too!
 
 ---
 
 # Checkpoint 3: 💾 Deploy your contract! 🛰
-
-An account is a concept defined by five attributes:
-
-1. A private key
-2. A public key
-3. An address
-4. A balance
-5. A nonce
-
-Accounts are train stations, because you use them to send transctions (trainsactions)
-to other accounts.
-
-- Mrs. Private Key
-  A private key lady who signs transactions and takes care of paper work
-
-- Ms. Public Key
-  An outgoing lady who verifies transactions
-
-The train station is located at a certain **address**
-The train station also has a balance of tokens
-The train station has a nonce, or a record of how many trains have passed through it
 
 <!-- ![A train station](http://localhost:3000/images/train-station.svg) -->
