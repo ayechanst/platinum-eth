@@ -4,6 +4,19 @@ subtitle: "What are accounts? What are they for?"
 data: "2024-04-22"
 ---
 
+## Externally Owned Account (EOA)
+
+These accounts are controlled by real people, and are the only account that can initiate transactions.
+You know what else initiates train-sactions? Train stations! Think of EOAs as train stations. They are
+where trains are initiated on their journey across the blockchain!
+
+What's the difference between an
+EOA and a wallet? They seem very similar. Wallets are software that manages your accounts. Think of them
+as... robot butlers. They work behind your screen and pull levers so you don't have to. One
+wallet can manage several accounts, just like how a butler can manage several train stations.
+
+---
+
 What are accounts? There are two types of accounts, and you've interacted with both
 by connecting your burner wallet! The first kind is an externally owned account, or
 EOA for short, and the second kind are smart contracts.
