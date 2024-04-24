@@ -4,8 +4,21 @@ subtitle: "What are accounts? What are they for?"
 data: "2024-04-22"
 ---
 
-# Externally Owned Account (EOA)
+![train-station](http://localhost:3000/images/train-station.svg)
 
 These accounts are controlled by real people, and are the only account that can initiate transactions.
 You know what else initiates train-sactions? Train stations! Think of EOAs as train stations. They are
 where trains are initiated on their journey across the blockchain!
+
+# Anatomy of an EOA
+
+These train stations have a few characters and things inside.
+
+### Private Key
+
+![Mrs. Private Key](http://localhost:3000/images/mrsPrivateKey.svg)
+
+Think of the private key as the train station clerk. She signs paperwork for the train-saction that
+prove the train came from the train station she works at.
+
+### Public Key

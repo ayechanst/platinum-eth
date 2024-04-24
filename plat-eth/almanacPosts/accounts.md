@@ -33,7 +33,7 @@ raw material and make something new with it.
 
 **Smart Contracts**
 
--
+- Only smart contracts can execute code.
 
 # Similarities
 
