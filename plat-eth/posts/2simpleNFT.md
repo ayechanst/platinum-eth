@@ -21,15 +21,17 @@ They come from somewhere, they go somewhere, they use fuel, and they carry stuff
 you're grabbing is the fuel for the train. In the next checkpoint, you're going to be minting some NFTs,
 and you'll need gas to power the trains! Think of transactions as "train-sactions".
 
-## Accounts (externally owned)
+## Accounts
 
 There are two types of accounts, and by the end of the challenge you'll have interacted with both!
+
+**Externally Owned Accounts**
 
 The first kind of accounts are controlled by real people, and are the only account that can initiate transactions.
 You know what else initiates train-sactions? Train stations! Think of EOAs as train stations. They are
 where trains are initiated on their journey across the blockchain!
 
-## Accounts (smart contracts)
+**Smart Contracts**
 
 Smart contracts are accounts that no one has access to. They receive train-sactions, and do stuff! No
 one is allowed in a smart contract. What other type of building receives "stuff" and returns other
