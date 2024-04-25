@@ -6,11 +6,17 @@ data: "2024-04-22"
 
 Transations are like trains. They carry things from one place to another.
 But what do they carry? How do they know where to go? Are there different
-kinds of trains? How do they start? All of these will be answered in this
-article.
+kinds of trains? Where do trains begin?
 
 There are three kinds of trainsactions. We will cover the things they
 have in common, then get into the differences.
+
+## 1. Transactions between train stations
+
+Regular transactions happen between two accounts, like when you send your friend some ETH.
+These transactions are the most basic and carry the following cargo:
+
+![regular trainsaction](http://localhost:3000/images/train.svg)
 
 # Cargo
 
