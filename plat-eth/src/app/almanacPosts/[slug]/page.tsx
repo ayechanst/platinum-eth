@@ -2,12 +2,7 @@ import fs from "fs";
 import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
 import getPostMetaData from "../../../../components/getPostMetadata";
-import {
-  CustomHeading1,
-  CustomHeading2,
-  CustomHeading3,
-  CustomParagraph,
-} from "../../../../components/MarkdownComponents";
+import { options } from "../../../../components/MarkdownComponents";
 
 const getPostContent = (slug: string) => {
   const folder = "almanacPosts/";
@@ -22,23 +17,6 @@ export const generateStaticParams = async () => {
   return posts.map((post) => ({
     slug: post.slug,
   }));
-};
-
-const options = {
-  overrides: {
-    h1: {
-      component: CustomHeading1,
-    },
-    h2: {
-      component: CustomHeading2,
-    },
-    h3: {
-      component: CustomHeading3,
-    },
-    p: {
-      component: CustomParagraph,
-    },
-  },
 };
 
 const PostPage = (props: any) => {

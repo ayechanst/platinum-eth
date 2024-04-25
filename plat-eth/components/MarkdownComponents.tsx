@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-export const CustomHeading1 = ({
+const CustomHeading1 = ({
   children,
 }: {
   children: ReactNode;
@@ -10,13 +10,14 @@ export const CustomHeading1 = ({
       fontSize: "34px",
       lineHeight: "1.5",
       color: "#B2F5EA",
+      margin: "0 0 5px 0",
     }}
   >
     {children}
   </h1>
 );
 
-export const CustomHeading2 = ({
+const CustomHeading2 = ({
   children,
 }: {
   children: ReactNode;
@@ -26,13 +27,14 @@ export const CustomHeading2 = ({
       fontSize: "28px",
       lineHeight: "1.5",
       color: "#B2F5EA",
+      margin: "0 0 5px 0",
     }}
   >
     {children}
   </h2>
 );
 
-export const CustomHeading3 = ({
+const CustomHeading3 = ({
   children,
 }: {
   children: ReactNode;
@@ -42,13 +44,14 @@ export const CustomHeading3 = ({
       fontSize: "24px",
       lineHeight: "1.5",
       color: "#B2F5EA",
+      margin: "0 0 5px 0",
     }}
   >
     {children}
   </h3>
 );
 
-export const CustomParagraph = ({
+const CustomParagraph = ({
   children,
 }: {
   children: ReactNode;
@@ -57,3 +60,43 @@ export const CustomParagraph = ({
     {children}
   </p>
 );
+
+const CustomList = ({
+  children,
+}: {
+  children: ReactNode;
+}) => <ul style={{ fontSize: "17px" }}>{children}</ul>;
+
+// Custom image component with adjustable spacing
+const CustomImage = ({ src }: { src: string }) => (
+  <img
+    src={src}
+    style={{
+      display: "inline-block",
+      margin: "5px 5px 5px 5px",
+    }}
+  />
+);
+
+export const options = {
+  overrides: {
+    h1: {
+      component: CustomHeading1,
+    },
+    h2: {
+      component: CustomHeading2,
+    },
+    h3: {
+      component: CustomHeading3,
+    },
+    p: {
+      component: CustomParagraph,
+    },
+    ul: {
+      component: CustomList,
+    },
+    img: {
+      component: CustomImage,
+    },
+  },
+};

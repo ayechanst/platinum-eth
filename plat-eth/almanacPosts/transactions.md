@@ -8,7 +8,7 @@ Transations are like trains. They carry things from one place to another.
 But what do they carry? How do they know where to go? Are there different
 kinds of trains? Where do trains begin?
 
-There are **three** kinds of trainsactions. The first kinds are transactions
+There are **three** main kinds of trainsactions. The first kinds are transactions
 between EOAs, the second is a transaction from an EOA to a smart contract,
 and the third transaction is an EOA deloying a smart contract account.
 
@@ -38,14 +38,7 @@ from my address and I approve this trainsaction". The wagon is depicted with an 
 signature. Think of it like a big peice of paper that Mrs. Private Key stamped with a big red
 wax seal.
 
-### 1.3 Nonce
-
-Printed on the side of the train is a nonce. A nonce is a number that indicates the current number
-of trains a train station has sent. The nonce is important for train stations sending value to
-each other, because if I sent several trains to my friend, I want to be sure that the
-trains arrive in the correct order to avoid complications.
-
-### 1.4 Gas
+### 1.3 Gas
 
 The trainsaction needs gas to move. Think of the gas as coal fuel for the train, depicted by
 the "G" wagon. Read more about [gas](/almanacPosts/gas) here if you're curious.
@@ -54,12 +47,12 @@ the "G" wagon. Read more about [gas](/almanacPosts/gas) here if you're curious.
 
 ---
 
-### 1.5 To Address
+### 1.4 "To" Address
 
 In the train's cockpit, there is a display that tells the train which train station its heading
 to.
 
-### 1.6 From Address
+### 1.5 "From" Address
 
 On the paper with the signature on it, is a "from address" that indicates which train station the
 train is headed from.
@@ -70,14 +63,19 @@ train is headed from.
   match up, the train continues onto its destination.
 - The "from address" is also important so train stations know who sent them value!
 
-# Types of Transactions
+### 1.6 Nonce
 
-Remember how we said Ethereum is network of accounts sending transactions to each other?
-Well these transactions look slightly different depending on the type.
+Printed on the side of the train is a nonce. A nonce is a number that indicates the current number
+of trains a train station has sent. The nonce is important for train stations sending value to
+each other, because if I sent several trains to my friend, I want to be sure that the
+trains arrive in the correct order to avoid complications.
 
-- Regular transactions
-- Contract execution transaction
-- Contract deployment transaction
+---
+
+# 2. Transactions from train stations to factories
+
+When you interact with a smart contract, you are sending a trainsaction to it. These trains are different
+from trains being sent between train stations.
 
 ---
 
