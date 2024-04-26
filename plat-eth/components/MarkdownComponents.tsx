@@ -78,6 +78,21 @@ const CustomImage = ({ src }: { src: string }) => (
   />
 );
 
+const CustomBold = ({
+  children,
+}: {
+  children: ReactNode;
+}) => (
+  <b
+    style={{
+      fontSize: "19px",
+      color: "#B2F5EA",
+    }}
+  >
+    {children}
+  </b>
+);
+
 export const options = {
   overrides: {
     h1: {
@@ -91,6 +106,9 @@ export const options = {
     },
     p: {
       component: CustomParagraph,
+    },
+    b: {
+      component: CustomBold,
     },
     ul: {
       component: CustomList,
