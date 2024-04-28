@@ -7,7 +7,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const header = (
-    <header className="">
+    <header className="px-4 sm:px-8">
       <div>
         <Link href="/">
           <div className="bg-cyan-800 p-4 my-2 rounded-md">
@@ -23,7 +23,7 @@ export default function RootLayout({
   );
 
   const footer = (
-    <footer>
+    <footer className="px-4 sm:px-8">
       <div className="border-t border-slate-600 mt-6 py-6 text-center text-cyan-200">
         <h3>Developed by Aye Chan, connect with me: </h3>
         <div className="flex justify-center space-x-4">
@@ -60,7 +60,7 @@ export default function RootLayout({
     <html>
       <head />
       <body className="bg-cyan-700">
-        <div className="mx-auto max-w-3xl">
+        <div className="mx-auto max-w-3xl sm:max-w-full">
           {header}
           {children}
           {footer}
