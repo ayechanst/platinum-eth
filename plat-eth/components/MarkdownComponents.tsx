@@ -107,7 +107,7 @@ export const options = {
     p: {
       component: CustomParagraph,
     },
-    b: {
+    strong: {
       component: CustomBold,
     },
     ul: {
