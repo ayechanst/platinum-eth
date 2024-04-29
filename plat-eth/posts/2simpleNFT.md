@@ -17,25 +17,26 @@ Start by reading about the first kind of account, then read about transations.
 
 ### [Externally Owned Accounts](/almanacPosts/eoa)
 
-The first kind of accounts are controlled by people, like you and me. Read the first section.
+This is the account which you're NFTs will be stored in. Read the first section.
 
 ### [Transactions](/almanacPosts/transactions)
 
-Anything sent between accounts are transactions. In fact, the funds you're grabbing from the faucet
-are to fueling transatcions.
+Anything sent between accounts are transactions. You'll need to learn about transactions to know
+how things move around on the blockchain!
 
 ---
 
 # Checkpoint 1: ⛽️ Gas & Wallets 👛
 
-🥇 The first step to this challenge is connecting your burner wallet so you can grab
-funds to pay for gas. Why do we need to connect our wallets and pay for gas? 🤔 We're
-not even driving anywhere. And what's the difference between an account and a
-wallet? 🤨
+Now that we covered the basics of EOAs and transactions, we can go deeper on gas and wallets. Gas powers
+the trains, but what is gas really for in blockchain terms? And what is the difference between EOAs and
+wallets?
 
-## Wallets ![wallet](http://localhost:3000/images/wallet.svg)
+### [Wallets](/almanacPosts/wallets) ![wallet](http://localhost:3000/images/wallet.svg)
 
-Put wallets in the "not part of the blockchain" section of your mind. Wallets are software that
+Wallets manage the keys to your EOA. Why can't we manage our own keys?
+
+<!-- Put wallets in the "not part of the blockchain" section of your mind. Wallets are software that
 manage your accounts. They are crucial for user experience, so that new people to crypto have an
 easier time interacting with the ecosystem. Wallets and accounts are mixed up often as they are
 so closley related, Metamask even wrote a short article about the mix-up:
@@ -43,11 +44,11 @@ so closley related, Metamask even wrote a short article about the mix-up:
 
 The first kind of account is an externally owned account, or EOA for short. These
 accounts are owned by real people, hence the externally owned part. The jargon for
-externally owned accounts are EOA, or just accounts. Wallets hold EOAs!
+externally owned accounts are EOA, or just accounts. Wallets hold EOAs! -->
 
-## Gas
+### [Gas](/almanacPosts/gas)
 
-Now that we know what transactions are, we know what gas is!
+Why does gas exist? Why arn't transactions just free, wouldn't that be better?
 
 ---
 
