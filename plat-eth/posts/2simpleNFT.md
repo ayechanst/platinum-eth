@@ -13,25 +13,20 @@ Web3 can be summarized in this one sentence:
 Before diving into gas and wallets, let's cover those two crucial things: **accounts**, and **transactions**.
 
 There are two types of accounts, and by the end of the challenge you'll have interacted with both!
-We will start with the simplest of the accounts:
+Start by reading about the first kind of account, then read about transations.
 
 ### [Externally Owned Accounts](/almanacPosts/eoa)
 
-The first kind of accounts are controlled by real people, and are the only account that can initiate transactions.
-You know what else initiates train-sactions? Train stations! Think of EOAs as train stations. They are
-where trains are initiated on their journey across the blockchain!
+The first kind of accounts are controlled by people, like you and me. Read the first section.
 
 ### [Transactions](/almanacPosts/transactions)
 
-Anything sent between accounts are transactions. What do they look like? Transactions are just like trains.
-They come from somewhere, they go somewhere, they use fuel, and they carry stuff! In fact, the funds
-you're grabbing is the fuel for the train. In the next checkpoint, you're going to be minting some NFTs,
-and you'll need gas to power the trains! Think of transactions as "train-sactions".
+Anything sent between accounts are transactions. In fact, the funds you're grabbing from the faucet
+are to fueling transatcions.
+
+---
 
 # Checkpoint 1: ⛽️ Gas & Wallets 👛
-
-To explain gas we need to explain transactions, and to explain wallets we need to
-explain accounts. Accounts and transactions are the building blocks of Web3!
 
 🥇 The first step to this challenge is connecting your burner wallet so you can grab
 funds to pay for gas. Why do we need to connect our wallets and pay for gas? 🤔 We're

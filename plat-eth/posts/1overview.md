@@ -17,9 +17,15 @@ by guiding you through the "behind the scenes" of each [Speed Run Ethereum](http
 challenge.
 
 The goal of the course is to provide you with context and knowledge at the same pace you
-would be applying the knowledge in each Speed Run Ethereum challenge. This course is not
-supposed to feel like: "Remember this, now remember that, don't forget this," but rather, "Here is this thing, here is what it's made out of, it functions the way it does for these
-reasons." Don't pressure yourself to remember. As you progress through the challenges the
+would be applying the knowledge in each Speed Run Ethereum challenge. This course is **not**
+supposed to feel like:
+
+> Remember this, now remember that, don't forget this,
+> but rather:
+
+> Here's this thing, here's what it's made of, it exists for these reasons... ect.
+
+Don't pressure yourself to remember. As you progress through the challenges the
 information will naturally stick because you'll have a real-world application.
 
 To make things stick more naturally, I've wrapped knowledge and context within a story.
