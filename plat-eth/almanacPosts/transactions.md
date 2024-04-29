@@ -77,6 +77,10 @@ trains arrive in the correct order to avoid complications.
 When you interact with a smart contract, you are sending a trainsaction to it. These trains are different
 from trains being sent between train stations.
 
+# 3. Smart Contract Deployment (its a transaction too!)
+
+![Smart Contract Train](http://localhost:3000/images/contractTrain.svg)
+
 ---
 
 Work in progress

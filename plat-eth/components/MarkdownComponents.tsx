@@ -1,5 +1,10 @@
 import { ReactNode } from "react";
 
+interface CustomLinkProps {
+  children: ReactNode;
+  href: string;
+}
+
 const CustomHeading1 = ({
   children,
 }: {
@@ -85,12 +90,41 @@ const CustomBold = ({
 }) => (
   <b
     style={{
-      fontSize: "19px",
+      fontSize: "15px",
       color: "#B2F5EA",
     }}
   >
     {children}
   </b>
+);
+
+const CustomLink = ({
+  children,
+  href,
+}: CustomLinkProps) => (
+  <a
+    href={href}
+    style={{
+      color: "#B2F5EA",
+    }}
+  >
+    {children}
+  </a>
+);
+
+const CustomQuote = ({
+  children,
+}: {
+  children: ReactNode;
+}) => (
+  <blockquote
+    style={{
+      fontSize: "11px",
+      color: "#B2F5EA",
+    }}
+  >
+    {children}
+  </blockquote>
 );
 
 export const options = {
@@ -115,6 +149,12 @@ export const options = {
     },
     img: {
       component: CustomImage,
+    },
+    a: {
+      component: CustomLink,
+    },
+    blockquote: {
+      component: CustomQuote,
     },
   },
 };

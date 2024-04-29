@@ -6,40 +6,27 @@ data: "2024-04-20"
 
 # Checkpoint 0: The Building Blocks
 
-The blockchain is made from blocks, but these blocks are made of more fundamental things:
-accounts, and transactions. Web3 can be summarized in this one sentence:
+Web3 can be summarized in this one sentence:
 
 > Ethereum is network of accounts sending transactions to each other.
 
-Let's dive into accounts and transations! These will explain Checkpoint 1: ⛽️ Gas & Wallets 👛
-very nicely for us.
-
-## Transactions
-
-Anything sent between accounts are transactions. What do they look like? Transactions are just like trains.
-They come from somewhere, they go somewhere, they use fuel, and they carry stuff! In fact, the funds
-you're grabbing is the fuel for the train. In the next checkpoint, you're going to be minting some NFTs,
-and you'll need gas to power the trains! Think of transactions as "train-sactions".
-
-## Accounts
+Before diving into gas and wallets, let's cover those two crucial things: **accounts**, and **transactions**.
 
 There are two types of accounts, and by the end of the challenge you'll have interacted with both!
+We will start with the simplest of the accounts:
 
-**1. Externally Owned Accounts**
+### [Externally Owned Accounts](/almanacPosts/eoa)
 
 The first kind of accounts are controlled by real people, and are the only account that can initiate transactions.
 You know what else initiates train-sactions? Train stations! Think of EOAs as train stations. They are
 where trains are initiated on their journey across the blockchain!
 
-**2. Smart Contracts**
+### [Transactions](/almanacPosts/transactions)
 
-Smart contracts are accounts that no one has access to. They receive train-sactions, and do stuff! No
-one is allowed in a smart contract. What other type of building receives "stuff" and returns other
-"stuff"? Factories! Fully autonamous factories where no humans are allowed. Think of smart contracts
-as factories. Also "smart contract" is jargon for "smart contract account". People don't specify that
-they're accounts but just know this in the back of your head:
-
-> Smart contracts are accounts too!
+Anything sent between accounts are transactions. What do they look like? Transactions are just like trains.
+They come from somewhere, they go somewhere, they use fuel, and they carry stuff! In fact, the funds
+you're grabbing is the fuel for the train. In the next checkpoint, you're going to be minting some NFTs,
+and you'll need gas to power the trains! Think of transactions as "train-sactions".
 
 # Checkpoint 1: ⛽️ Gas & Wallets 👛
 
@@ -76,6 +63,16 @@ going on.
 
 We can use the words accounts and transactions to describe the Ethereum ecosystem in the most
 general sense.
+
+**2. Smart Contracts**
+
+Smart contracts are accounts that no one has access to. They receive train-sactions, and do stuff! No
+one is allowed in a smart contract. What other type of building receives "stuff" and returns other
+"stuff"? Factories! Fully autonamous factories where no humans are allowed. Think of smart contracts
+as factories. Also "smart contract" is jargon for "smart contract account". People don't specify that
+they're accounts but just know this in the back of your head:
+
+> Smart contracts are accounts too!
 
 ---
 

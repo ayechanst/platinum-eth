@@ -14,15 +14,13 @@ where trains are initiated on their journey across the blockchain!
 
 These train stations have a few characters and things inside.
 
-### Private Key
-
-![Mrs. Private Key](http://localhost:3000/images/mrsPrivateKey.svg)
+### ![Mrs. Private Key](http://localhost:3000/images/mrsPrivateKey.svg) Private Keys
 
 Think of the private key as the train station clerk. She signs paperwork for the train-saction that
 prove the train came from the train station she works at.
 
 She is mysterious, and doesn't talk much, because she is VERY private!
 
-### Public Key
+### ![Ms. Public Key](http://localhost:3000/images/msPublicKey.svg) Public Keys
 
 :w
