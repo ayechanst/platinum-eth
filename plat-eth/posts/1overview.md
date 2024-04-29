@@ -4,11 +4,11 @@ subtitle: "Check this out before starting"
 data: "2024-04-20"
 ---
 
-# Under Contruction
+# Under Construction
 
 Platinum-Eth is being built right now. For now
 the site is being designed and formatted. The first thing that will be done is challenge 0:
-Simple NFT, and I will work on the challenges in order. Stay tuned!
+Simple NFT and I will work on the challenges in order. Stay tuned!
 
 # The Goal of Platinum-Eth
 
@@ -16,53 +16,51 @@ Platinum-Eth is a course that helps you build a model of how the Ethereum ecosys
 by guiding you through the "behind the scenes" of each [Speed Run Ethereum](https://speedrunethereum.com/)
 challenge.
 
-The goal of the course is to provide you with context and knowledge, at the same pace you
-would applying the knowledge within each Speed Run Ethereum challenge. The course is not
-supposed to feel like: "remember this, now remember that, don't forget this", but rather
-"here is this thing, here is what its made out of, it functions the way it does for these
-reasons". Don't pressure yourself to remember. As you progress through the challenges the
-information will natrually stick because you'll have a real world application.
+The goal of the course is to provide you with context and knowledge at the same pace you
+would be applying the knowledge in each Speed Run Ethereum challenge. This course is not
+supposed to feel like: "Remember this, now remember that, don't forget this," but rather, "Here is this thing, here is what it's made out of, it functions the way it does for these
+reasons." Don't pressure yourself to remember. As you progress through the challenges the
+information will naturally stick because you'll have a real-world application.
 
-To make things stick even more natrually, I've wrapped knowledge and context within a story.
+To make things stick more naturally, I've wrapped knowledge and context within a story.
 You'll notice a lot of metaphors in Platinum-Eth. These metaphors are more than just a
 teaching aid, they serve as anchors for knowledge. The anchors keep knowledge from floating
 out of your brain as you progress and eventually surpass what this course can teach you.
 
 The anchors for the knowledge all rest on top of a world called
-Platinum-Ethereum. I chose the name because to "platinum" a game is to get every acheivement
-in it. Its the opposite of "speed running" a game, and the world/course serves to create a
+Platinum-Ethereum. I chose the name because to "platinum," a game means earning every achievement. It is the opposite of "speed running" a game. The world/course creates a
 "middle road" where you are not forced to speed run through Ethereum, nor are you forced to
 consume endless blogs, videos, or documentation. You have the choice to lean into as much or
 as little of the roads offered.
 
 # Where the anchors lay
 
-The world of Platinum-Eth is the context in which the anchors lay on. The locations, characters,
-and events are the anchors that the knowledge is tied to. The dynamics between the context and
+The world of Platinum-Eth is the context in which the anchors lay. The locations, characters,
+and events are the anchors to which the knowledge is tied. The dynamics between the context and
 the anchors create the emergent property of a **Ethereum Ecosystem** model.
 
 Stories form the dynamics of the world. This design choice was made because brains are
 better evolved to recall stories that involve places, people, and events we can picture
-in our heads, rather than remembering procedures involving concepts, objects, and code.
+in our heads rather than remembering procedures involving concepts, objects, and code.
 
 # That is to say...
 
 Do not overlook the analogies within Platinum-Eth. I encourage you to do your own research
-if you find the analogies do not sit well with you, because only you know how you learn best.
-All this course is, is just a culmination of my own research packaged in a manner I hope can
-be more easily understood than independant research.
+if the analogies do not sit well with you, only you know how you learn best.
+All this course is, is a culmination of my own research packaged in a manner I hope can
+be more easily understood than independent research.
 
-Platinum-Eth is a model, not documentation. In fact, I got most of my information from the
+Platinum-Eth is a model, not documentation. In fact, most of my information comes from the
 [Ethereum Documentation](https://ethereum.org/en/developers/docs/intro-to-ethereum/). A model
-is an innacurate representation of something. Its these innacuracies that make models such a
-useful tool, because we can focus our attention on what's important.
+is an inaccurate representation of something. It's these inaccuracies that make models such a
+useful tool because we can focus our attention on what's important.
 
 If you're going through
-Speed Run Ethereum, I'm assuming what is important to you is becoming a builder in Web3, and
-joining the [Build Guild](https://app.buidlguidl.com/)! What Platinum-Eth's model focuses on
-is a holistic understanding of the blockchain. It is not tailored to any profession in Web3
-in particular, but rather to all professions. As you move your way out of here, you will have
-a model that you can extend and modify to suit your needs! Good Luck!
+Speed Run Ethereum, I'm assuming what is important to you is becoming a builder in Web3 and
+joining the [Build Guild](https://app.buidlguidl.com/)! Platinum-Eth's model focuses on
+a holistic understanding of blockchain. It is not tailored to any profession in Web3
+in particular, but rather to all occupations. As you move out of here, you will have
+a model you can extend and modify to suit your needs! Good Luck!
 
 <!-- A cannonical universe where concepts in Web3 are explained through one long continous analogy.
 
