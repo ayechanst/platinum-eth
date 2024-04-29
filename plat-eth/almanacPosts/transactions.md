@@ -4,15 +4,23 @@ subtitle: "Who makes transactions? What are their purpose?"
 data: "2024-04-22"
 ---
 
-Transations are like trains. They carry things from one place to another.
-But what do they carry? How do they know where to go? Are there different
-kinds of trains? Where do trains begin?
+Transations are like trains (train-saction). They carry things from one place to another.
 
-There are **three** main kinds of trainsactions. The first kinds are transactions
+![trainsaction](http://localhost:3000/images/banner-train.svg)
+
+# 🎟 Simple NFT Example
+
+We collected funds from the faucet, so that our train station has the means to fuel our train
+when we mint some NFTs. Trains use **gas** to get places, notice the cart full of charcoal
+in the illustration.
+
+That's it! We'll revisit transactions when its time to mint. [Back to Challenge 0](/posts/2simpleNFT)
+
+<!-- There are **three** main kinds of trainsactions. The first kinds are transactions
 between EOAs, the second is a transaction from an EOA to a smart contract,
 and the third transaction is an EOA deloying a smart contract account.
 
-# 1. Transactions between train stations
+## 1. Transactions between train stations
 
 ![regular trainsaction](http://localhost:3000/images/train.svg)
 
@@ -79,7 +87,7 @@ from trains being sent between train stations.
 
 # 3. Smart Contract Deployment (its a transaction too!)
 
-![Smart Contract Train](http://localhost:3000/images/contractTrain.svg)
+![Smart Contract Train](http://localhost:3000/images/contractTrain.svg) -->
 
 ---
 
