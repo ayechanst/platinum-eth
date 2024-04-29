@@ -12,7 +12,7 @@ export default function RootLayout({
         <Link href="/">
           <div className="bg-cyan-800 p-4 my-2 rounded-md">
             <img
-              src="/images/plat-eth-logo.svg"
+              src="/images/logo-new.svg"
               alt="logo"
               className="mx-auto"
             />
@@ -60,8 +60,8 @@ export default function RootLayout({
     <html>
       <head />
       <body className="bg-cyan-700">
+        {header}
         <div className="mx-auto max-w-3xl px-7">
-          {header}
           {children}
           {footer}
         </div>
