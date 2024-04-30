@@ -34,7 +34,8 @@ wallets?
 
 ### [Wallets](/almanacPosts/wallets) ![wallet](http://localhost:3000/images/wallet.svg)
 
-Wallets manage the keys to your EOA. Why can't we manage our own keys?
+Wallets are software (or hardware) that manage your different EOAs. They do this through your private key.
+Why can't we manage our own keys?
 
 <!-- Put wallets in the "not part of the blockchain" section of your mind. Wallets are software that
 manage your accounts. They are crucial for user experience, so that new people to crypto have an

@@ -19,7 +19,7 @@ The private key is generated from the hash of your randomly generated seed phras
 The public key is generated from the private key, and the **address** of the account
 is derived from the public key.
 
-### Balance
+### ![balance](http://localhost:3000/images/balance.svg) Balance
 
 The point of EOAs are to store value safely behind the protection of a private key. EOAs can store
 Ethereum tokens, and all other tokens. They can also store NFTs, which you'll be sending yourself
