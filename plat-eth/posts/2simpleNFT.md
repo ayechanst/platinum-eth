@@ -4,20 +4,29 @@ subtitle: "Create a simple NFT to learn basics of 🏗 Scaffold-ETH 2."
 data: "2024-04-20"
 ---
 
+Welcome to challenge 0! This challenge is about minting some NFTs for yourself, and we're going
+to explain what's going on behind the scenes in this straight-forward challenge.
+
 # Checkpoint 0: The Building Blocks
 
 Web3 can be summarized in this one sentence:
 
 > Ethereum is network of accounts sending transactions to each other.
 
-Before diving into gas and wallets, let's cover those two crucial things: **accounts**, and **transactions**.
+Before diving into gas and wallets, let's cover those two fundamental building blocks: **accounts**,
+and **transactions**.
 
-There are two types of accounts, and by the end of the challenge you'll have interacted with both!
-Start by reading about the first kind of account, then read about transations.
+There are two types of accounts, and by the end of the challenge you'll have interacted with both.
+You will also have made several transactions!
+
+Transactions are like trains, they allow accounts to send resources and communicate. If transactions
+are like trains, then accounts must be like train stations!
 
 ### [Externally Owned Accounts](/almanacPosts/eoa)
 
-This is the account which you're NFTs will be stored in. Read the first section.
+There are two kinds of accounts, this one is the first. It's an account where your funds for gas will
+be stored, as well as your NFTs once you mint them. This account is also where your NFT transaction
+will originate, its like a home base!
 
 ### [Transactions](/almanacPosts/transactions)
 

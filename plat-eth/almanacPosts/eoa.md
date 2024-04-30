@@ -1,5 +1,5 @@
 ---
-title: "Externally Owned Accounts"
+title: "Externally Owned Accounts (Train Stations)"
 subtitle: "What are accounts? What are they for?"
 data: "2024-04-22"
 ---
@@ -8,16 +8,13 @@ data: "2024-04-22"
 
 Let's begin our trip through Platinum-Ethereum!
 
-These externally owned accounts (EOAs) are controlled by real people, and are the only account
-that can **initiate** transactions. What else initiates train-sactions? Train stations!
-Think of EOAs as train stations. We will re-visit accounts as we progress through the challenges.
+Externally owned accounts (EOAs) hold value for users, and share a lot of similarities
+with train stations.
 
 # 🎟 Simple NFT Example
 
-Accounts are made up of a pair of keys, a **private key** and a **public key**.
-The private key is generated from the hash of your randomly generated seed phrase.
-The public key is generated from the private key, and the **address** of the account
-is derived from the public key.
+This section limits information about EOAs to the context of challenge 0. The point is for you
+to learn at the same pace you are building along with the Speed Run Eth challenge.
 
 ### ![balance](http://localhost:3000/images/balance.svg) Balance
 
@@ -52,3 +49,13 @@ seen from miles.
 
 That's all you need to know about EOAs for Challenge 0! Time to head [back](/posts/2simpleNFT) and read about transactions,
 and why the analogy for EOAs are train stations.
+
+---
+
+# 🥩 Decentralized Staking App
+
+---
+
+Coming soon
+
+---

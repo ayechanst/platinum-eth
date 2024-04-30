@@ -21,7 +21,8 @@ would be applying the knowledge in each Speed Run Ethereum challenge. This cours
 supposed to feel like:
 
 > Remember this, now remember that, don't forget this,
-> but rather:
+
+but rather:
 
 > Here's this thing, here's what it's made of, it exists for these reasons... ect.
 
