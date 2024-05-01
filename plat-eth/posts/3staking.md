@@ -1,5 +1,5 @@
 ---
-title: "🥩 Decentralized Staking App"
+title: "Challenge 1: 🥩 Decentralized Staking App"
 subtitle: "In this challenge, you create a decentralized application where users can coordinate a group funding effort."
 data: "2024-04-20"
 ---

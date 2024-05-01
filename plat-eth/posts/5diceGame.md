@@ -1,5 +1,5 @@
 ---
-title: "🎲 Dice Game"
+title: "Challenge 3: 🎲 Dice Game"
 subtitle: "Randomness is tricky on a public deterministic blockchain."
 data: "2024-04-20"
 ---

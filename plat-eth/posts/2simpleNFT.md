@@ -1,5 +1,5 @@
 ---
-title: "🎟 Simple NFT Example"
+title: "Challenge 0: 🎟 Simple NFT Example"
 subtitle: "Create a simple NFT to learn basics of 🏗 Scaffold-ETH 2."
 data: "2024-04-20"
 ---
@@ -15,6 +15,10 @@ Web3 can be summarized in this one sentence:
 
 Before diving into gas and wallets, let's cover those two fundamental building blocks: **accounts**,
 and **transactions**.
+
+"BUT WAIT! I connected my **wallet** to get funds, not my **account**." Don't worry, your account is
+in your wallet. Your wallet is like a protective shell for your accounts, we'll go deeper on wallets
+in checkpoint 1.
 
 There are two types of accounts, and by the end of the challenge you'll have interacted with both.
 You will also have made several transactions!

@@ -14,7 +14,7 @@ const CustomHeading1 = ({
     style={{
       fontSize: "34px",
       lineHeight: "1.5",
-      color: "#B2F5EA",
+      color: "white",
       margin: "0 0 5px 0",
     }}
   >
@@ -90,8 +90,8 @@ const CustomBold = ({
 }) => (
   <b
     style={{
-      fontSize: "15px",
-      color: "#B2F5EA",
+      fontSize: "17px",
+      color: "white",
     }}
   >
     {children}
