@@ -8,8 +8,6 @@ data: "2024-04-22"
 
 Let's begin our trip through Platinum-Ethereum!
 
-# Challenge 0: 🎟 Simple NFT Example
-
 Externally owned accounts (EOAs) hold value for users, and share a lot of similarities
 with train stations.
 
@@ -31,9 +29,6 @@ Technically, there are two kinds of accounts: EOAs and smart contracts. However 
 
 </details>
 
-This section limits information about EOAs to the context of challenge 0. The point is for you
-to learn at the same pace you are building along in the Speed Run Eth challenges.
-
 ## Decoupling the concept of EOAs and wallets
 
 If your new to crypto, you'll hear the words wallet and account used interchangabley. Differenciating
@@ -50,23 +45,41 @@ Now for wallets:
 Hold onto those definitions shortly while we explain EOAs, and in wallets section everything will
 be packaged into a story Platinum-Eth style.
 
+# Challenge 0: 🎟 Simple NFT Example
+
+So what do we need to know about EOAs within the context of challenge 0? We are grabbing funds from
+a faucet, so we'll cover account **balances**, and we are interacting with our EOA through our wallet,
+so we'll cover **private keys**.
+
 ### ![balance](http://localhost:3000/images/balance.svg) Balance
 
-The point of EOAs are to store value safely behind the protection of a private key. EOAs can store
-Ethereum tokens, and all other tokens. They can also store NFTs, which you'll be sending yourself
-later.
+The train staion can hold any amount of token in any quantity (NFTs included).
 
-Imagine the train station has piles of shiny tokens in its corners. The inside of the station is
-also decorated with vintage artwork, representing NFTs. The station is opperated by the following
-characters:
+Imagine you're in your train station right now. When you get funds from the faucet, imagine the
+tokens appearing our of thin air and raining down inside your station. When you mint your NFTs,
+imagine the pictures appearing as artwork on the walls.
+
+The balance of an account is simply a number representing the amount of value within the account.
 
 ### ![Mrs. Private Key](http://localhost:3000/images/mrsPrivateKey.svg) Mrs. Private Key
 
-Think of the private key as the train station clerk. She is very reserved and private, and her job
-is to sign paperwork for outgoing transactions, as proof that this train station is where to transaction
-originated from.
-Without the private key, you cannot access anything in your account. Wallets help manage private keys,
-but we'll get into that in the wallet section.
+Mrs. Private key is a reserved and secretive clerk who provides outgoing trains with a signature
+(a proof) that the train originated from the train station she works at.
+
+Let's say someone is trying to steal from you. They walk into your train station, load your funds into
+a train, and set the train's destination to their train station. Your Mrs. Private key isn't there,
+so they use their Mrs. Private Key to sign paperwork, and set the train on its way.
+
+The train eventually crosses a checkpoint. The validators inspect the forged signature, and realize the
+train is not coming from where the signature claims. They send the train back to your train station and
+the theif fails.
+
+Remember that the ethereum ecosystem is just a network of accounts sending transactions to each other.
+So if you want to do anything with your account, you'll need to send a transaction. However every
+transaction has a private key signature that proves it came from a particular account. So when the
+signature is wrong, the transaction is reverted.
+
+Thus a safely guarded private key prevents anyone from doing anything with your account.
 
 That's all you need to know about EOAs for Challenge 0! Time to head [back](/posts/2simpleNFT) and read about transactions,
 and why the analogy for EOAs are train stations.

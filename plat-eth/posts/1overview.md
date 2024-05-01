@@ -69,6 +69,12 @@ a holistic understanding of blockchain. It is not tailored to any profession in 
 in particular, but rather to all occupations. As you move out of here, you will have
 a model you can extend and modify to suit your needs! Good Luck!
 
+---
+
+(Go over page structure here)
+
+---
+
 <!-- A cannonical universe where concepts in Web3 are explained through one long continous analogy.
 
 A space faring civilization is building planet sized blocks in outer space. On these blocks exist

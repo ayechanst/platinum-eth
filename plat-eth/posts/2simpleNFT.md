@@ -32,11 +32,6 @@ There are two kinds of accounts, this one is the first. It's an account where yo
 be stored, as well as your NFTs once you mint them. This account is also where your NFT transaction
 will originate, its like a home base!
 
-### [Transactions](/almanacPosts/transactions)
-
-Anything sent between accounts are transactions. You'll need to learn about transactions to know
-how things move around on the blockchain!
-
 ---
 
 # Checkpoint 1: ⛽️ Gas & Wallets 👛
@@ -70,6 +65,11 @@ Why does gas exist? Why arn't transactions just free, wouldn't that be better?
 
 Once you have your funds, we can start minting! Let's break everything down so we know exactly what is
 going on.
+
+### [Transactions](/almanacPosts/transactions)
+
+Anything sent between accounts are transactions. You'll need to learn about transactions to know
+how things move around on the blockchain!
 
 We can use the words accounts and transactions to describe the Ethereum ecosystem in the most
 general sense.
