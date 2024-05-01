@@ -16,15 +16,13 @@ Web3 can be summarized in this one sentence:
 Before diving into gas and wallets, let's cover those two fundamental building blocks: **accounts**,
 and **transactions**.
 
-"BUT WAIT! I connected my **wallet** to get funds, not my **account**." Don't worry, your account is
-in your wallet. Your wallet is like a protective shell for your accounts, we'll go deeper on wallets
-in checkpoint 1.
+> BUT WAIT! I connected my **wallet** to get funds, not my **account**.
 
-There are two types of accounts, and by the end of the challenge you'll have interacted with both.
-You will also have made several transactions!
+Don't worry, your account is "in" your wallet. Your wallet is like a protective shell for your accounts,
+we'll go deeper on wallets in checkpoint 1.
 
-Transactions are like trains, they allow accounts to send resources and communicate. If transactions
-are like trains, then accounts must be like train stations!
+**Transactions** are like trains, they allow accounts to send resources and communicate. If transactions
+are like trains, then **accounts** must be like train stations!
 
 ### [Externally Owned Accounts](/almanacPosts/eoa)
 
@@ -36,14 +34,18 @@ will originate, its like a home base!
 
 # Checkpoint 1: ⛽️ Gas & Wallets 👛
 
-Now that we covered the basics of EOAs and transactions, we can go deeper on gas and wallets. Gas powers
-the trains, but what is gas really for in blockchain terms? And what is the difference between EOAs and
-wallets?
+So we want to load our wallets (which we now know actually loads our EOA) with funds to pay for gas.
 
-### [Wallets](/almanacPosts/wallets) ![wallet](http://localhost:3000/images/wallet.svg)
+### [Wallets](/almanacPosts/wallets)
 
-Wallets are software (or hardware) that manage your different EOAs. They do this through your private key.
-Why can't we manage our own keys?
+Why did we use a wallet instead of directly using our EOA?
+
+### [Gas](/almanacPosts/gas)
+
+Why do we need gas? This isn't the physical world were you need cars to get places!
+
+<!-- Wallets are software (or hardware) that manage your different EOAs. They do this through your private key.
+Why can't we manage our own keys? -->
 
 <!-- Put wallets in the "not part of the blockchain" section of your mind. Wallets are software that
 manage your accounts. They are crucial for user experience, so that new people to crypto have an
@@ -54,10 +56,6 @@ so closley related, Metamask even wrote a short article about the mix-up:
 The first kind of account is an externally owned account, or EOA for short. These
 accounts are owned by real people, hence the externally owned part. The jargon for
 externally owned accounts are EOA, or just accounts. Wallets hold EOAs! -->
-
-### [Gas](/almanacPosts/gas)
-
-Why does gas exist? Why arn't transactions just free, wouldn't that be better?
 
 ---
 
