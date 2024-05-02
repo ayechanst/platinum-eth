@@ -9,7 +9,7 @@ mean precisely?
 
 Think of wallets as... robot butlers... with a safe for a chest.
 
-![Robot Butler](http://localhost:3000/images/butler.svg)
+![Robot Butler](/images/butler.svg)
 
 > OK, what the heck?
 

@@ -6,7 +6,7 @@ data: "2024-04-22"
 
 Transations are like trains (train-saction). They carry things from one place to another.
 
-![trainsaction](http://localhost:3000/images/banner-train.svg)
+![trainsaction](/images/banner-train.svg)
 
 # 🎟 Simple NFT Example
 

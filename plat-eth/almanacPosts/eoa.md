@@ -4,8 +4,6 @@ subtitle: "What are accounts? What are they for?"
 data: "2024-04-22"
 ---
 
-<!-- ![train-station](http://localhost:3000/images/train-station.svg) -->
-
 ![train-station](/images/train-station.svg)
 
 Let's begin our trip through Platinum-Ethereum!
@@ -53,8 +51,6 @@ So what do we need to know about EOAs within the context of challenge 0? We are 
 a faucet, so we'll cover account **balances**, and we are interacting with our EOA through our wallet,
 so we'll cover **private keys**.
 
-<!-- ### ![balance](http://localhost:3000/images/balance.svg) Balance -->
-
 ### ![balance](/images/balance.svg) Balance
 
 The train staion can hold any amount of token in any quantity (NFTs included).
@@ -67,24 +63,26 @@ The balance of an account is simply a number representing the amount of value wi
 
 ### Address
 
-Train stations need a unique address so people know where to send their trains.
+Train stations need a unique address so people know where to send their trains. Addresses are
+public information, and anyone can look at the balances of your station.
 
 Think of the address as a huge billboard above the station that can be seen for miles.
-
-<!-- ### ![Mrs. Private Key](http://localhost:3000/images/mrsPrivateKey.svg) Mrs. Private Key -->
 
 ### ![Mrs. Private Key](/images/mrsPrivateKey.svg) Mrs. Private Key
 
 Mrs. Private key is a reserved and secretive clerk who provides outgoing trains with a signature
-(a proof) that the train originated from the train station she works at.
+(a cryptographic proof) that the train originated from the **address** of train station she works at.
 
-Let's say someone is trying to steal from you. They walk into your train station, load your funds into
-a train, and set the train's destination to their train station. Your Mrs. Private key isn't there,
-so they use their Mrs. Private Key to sign paperwork, and set the train on its way.
+Why do we need private keys?
 
-The train eventually crosses a checkpoint. The validators inspect the forged signature, and realize the
-train is not coming from where the signature claims. They send the train back to your train station and
-the theif fails.
+Let's say someone is trying to steal from you. Your station's address is public, so they walk into your
+train station, shovel your funds into a fruadulent train, and set the train's destination to their
+station's **address**. Your Mrs. Private key isn't there, so they use their Mrs. Private Key to sign
+paperwork, and send the train on its way.
+
+The train eventually crosses a checkpoint. The workers at the checkpoint inspect the signature, and realize the
+train is not coming from where the address the signature claims its coming from. The workers send the train back
+to your train station and the theif fails.
 
 Remember that the ethereum ecosystem is just a network of accounts sending transactions to each other.
 So if you want to do anything with your account, you'll need to send a transaction. However every
