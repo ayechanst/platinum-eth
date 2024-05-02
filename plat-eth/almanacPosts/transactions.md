@@ -10,9 +10,8 @@ Transations are like trains (train-saction). They carry things from one place to
 
 # 🎟 Simple NFT Example
 
-We collected funds from the faucet, so that our train station has the means to fuel our train
-when we mint some NFTs. Trains use **gas** to get places, notice the cart full of charcoal
-in the illustration.
+As soon as we click "Mint Item", our EOA sends a transaction to the **address** of the NFT minting
+smart contract. What does our transaction look like?
 
 That's it! We'll revisit transactions when its time to mint. [Back to Challenge 0](/posts/2simpleNFT)
 

@@ -49,25 +49,26 @@ way, but of course transactions don't use gas the same way a train would. So wha
 
 # Checkpoint 2: 🖨 Minting
 
-This is where the fun begins!
+This is where the fun begins! Its time to mint some NFTs and see whats going on. When you click
+"Mint Item" what actually happens? How do the NFTs just pop up on your user interface?
+
+By clicking "Mint Item", you are sending a **transaction** to a **smart contract**, that then mints
+an NFT, and sends you that NFT back in a transaction. Once the NFT is in your account, you can see it
+pop up.
+
+Of course there's more going on here than just that, so lets first explore **transations**, then
+look at **smart contracts**. After explaining those, we'll walk through all the steps between
+"Mint Item" and seeing the NFT on your user interface.
 
 ### [Transactions](/almanacPosts/transactions)
 
-Anything sent between accounts are transactions. You'll need to learn about transactions to know
-how things move around on the blockchain!
+Anything sent between accounts are transactions. We know they use gas, but what else is relevant for us
+to know within the context of this challenge?
 
-We can use the words accounts and transactions to describe the Ethereum ecosystem in the most
-general sense.
+### [Smart Contracts](/almanacPosts/smartContracts)
 
-**2. Smart Contracts**
-
-Smart contracts are accounts that no one has access to. They receive train-sactions, and do stuff! No
-one is allowed in a smart contract. What other type of building receives "stuff" and returns other
-"stuff"? Factories! Fully autonamous factories where no humans are allowed. Think of smart contracts
-as factories. Also "smart contract" is jargon for "smart contract account". People don't specify that
-they're accounts but just know this in the back of your head:
-
-> Smart contracts are accounts too!
+A smart contract is a kind of account that gets deliveries from trains, and does things with those
+deliveries. Smart contracts are so versatile, just like factories!
 
 ---
 
