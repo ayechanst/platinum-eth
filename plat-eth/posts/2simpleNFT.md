@@ -42,27 +42,14 @@ Why did we use a wallet instead of directly using our EOA?
 
 ### [Gas](/almanacPosts/gas)
 
-Why do we need gas? This isn't the physical world were you need cars to get places!
-
-<!-- Wallets are software (or hardware) that manage your different EOAs. They do this through your private key.
-Why can't we manage our own keys? -->
-
-<!-- Put wallets in the "not part of the blockchain" section of your mind. Wallets are software that
-manage your accounts. They are crucial for user experience, so that new people to crypto have an
-easier time interacting with the ecosystem. Wallets and accounts are mixed up often as they are
-so closley related, Metamask even wrote a short article about the mix-up:
-[What's the difference between a wallet and an account?](https://support.metamask.io/hc/en-us/articles/13466457757211-What-s-the-difference-between-a-wallet-and-an-account)
-
-The first kind of account is an externally owned account, or EOA for short. These
-accounts are owned by real people, hence the externally owned part. The jargon for
-externally owned accounts are EOA, or just accounts. Wallets hold EOAs! -->
+Gas for transactions in Ethereum is just like fuel for a train. It's useful to think of gas in this
+way, but of course transactions don't use gas the same way a train would. So what is **gas**?
 
 ---
 
 # Checkpoint 2: 🖨 Minting
 
-Once you have your funds, we can start minting! Let's break everything down so we know exactly what is
-going on.
+This is where the fun begins!
 
 ### [Transactions](/almanacPosts/transactions)
 

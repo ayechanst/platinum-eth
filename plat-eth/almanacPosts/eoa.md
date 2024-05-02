@@ -94,20 +94,20 @@ Thus a safely guarded private key prevents anyone from doing anything with your 
 That's all you need to know about EOAs for Challenge 0! Time to head [back](/posts/2simpleNFT) and read about transactions,
 and why the analogy for EOAs are train stations.
 
+<!-- <details>
+  <summary>Bonus: Ms. Public Key</summary>
+
 ---
 
-<!-- ### ![Ms. Public Key](http://localhost:3000/images/msPublicKey.svg) Ms. Public Key
+### ![Ms. Public Key](/images/msPublicKey.svg) Ms. Public Key
 
-The public key is like the daughter of the private key, because its generated from the private key.
-This person is outgoing, but not particularly useful. From Ms. Public Key, the address of the account
-is generated.
+Info about public keys
 
-### Address
+---
 
-The address is generated from the public key, Mrs. Private key allowed her daughter to choose the
-address. The address is what allows Mrs. Private Key's signature to be decrypted, proving the transaction
-came from this address. Think of the address as a massive billboard above the train station that can be
-seen from miles. -->
+</details> -->
+
+---
 
 # 🥩 Decentralized Staking App
 
