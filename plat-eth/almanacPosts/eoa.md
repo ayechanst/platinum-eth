@@ -4,7 +4,9 @@ subtitle: "What are accounts? What are they for?"
 data: "2024-04-22"
 ---
 
-![train-station](http://localhost:3000/images/train-station.svg)
+<!-- ![train-station](http://localhost:3000/images/train-station.svg) -->
+
+![train-station](/images/train-station.svg)
 
 Let's begin our trip through Platinum-Ethereum!
 
@@ -51,7 +53,9 @@ So what do we need to know about EOAs within the context of challenge 0? We are 
 a faucet, so we'll cover account **balances**, and we are interacting with our EOA through our wallet,
 so we'll cover **private keys**.
 
-### ![balance](http://localhost:3000/images/balance.svg) Balance
+<!-- ### ![balance](http://localhost:3000/images/balance.svg) Balance -->
+
+### ![balance](/images/balance.svg) Balance
 
 The train staion can hold any amount of token in any quantity (NFTs included).
 
@@ -61,7 +65,15 @@ imagine the pictures appearing as artwork on the walls.
 
 The balance of an account is simply a number representing the amount of value within the account.
 
-### ![Mrs. Private Key](http://localhost:3000/images/mrsPrivateKey.svg) Mrs. Private Key
+### Address
+
+Train stations need a unique address so people know where to send their trains.
+
+Think of the address as a huge billboard above the station that can be seen for miles.
+
+<!-- ### ![Mrs. Private Key](http://localhost:3000/images/mrsPrivateKey.svg) Mrs. Private Key -->
+
+### ![Mrs. Private Key](/images/mrsPrivateKey.svg) Mrs. Private Key
 
 Mrs. Private key is a reserved and secretive clerk who provides outgoing trains with a signature
 (a proof) that the train originated from the train station she works at.
