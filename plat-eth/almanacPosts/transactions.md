@@ -4,16 +4,76 @@ subtitle: "Who makes transactions? What are their purpose?"
 data: "2024-04-22"
 ---
 
-Transations are like trains (train-saction). They carry things from one place to another.
-
-![trainsaction](/images/banner-train.svg)
+Transations are like trains (train-saction). They carry things from one place to another. These
+trains can carry different carts depending on their use case.
 
 # 🎟 Simple NFT Example
 
 As soon as we click "Mint Item", our EOA sends a transaction to the **address** of the NFT minting
-smart contract. What does our transaction look like?
+smart contract. What does our transaction look like in this case?
 
-That's it! We'll revisit transactions when its time to mint. [Back to Challenge 0](/posts/2simpleNFT)
+Our train looks like this:
+
+![trainsaction](/images/train.svg)
+
+Now lets break the train down to its essential cargo.
+
+### Gas ![gas cart](/images/gas-cart.svg)
+
+As we covered, transactions need gas. Can you remember the reasons?
+
+How much gas do we need? How much gas will we pay? The total cost of gas depends on two things:
+
+1. What our input data is doing
+2. How much gas costs per unit
+
+Our data cart will instruct the factory to execute different actions. Some actions cost
+more units of gas than others. And depending on the transaction, there could be different
+amounts of actions to executed. We will cover what these actions are in the smart contract
+section.
+
+The same actions will always costs the same amount of gas units. But the price of gas will
+fluxuate along with the market, so transactions doing the same thing could cost different
+amounts at different times of day.
+
+### ![data cart](/images/data-cart.svg) Input Data
+
+The data cart is like the raw material the factory consumes. There is a lot to unpack
+with the data cart, and it will make more sense to cover it in the smart contract
+section.
+
+For now just think of the input data as raw material that the factory will change into
+something else.
+
+### Signature ![signature cart](/images/signature-cart.svg)
+
+The signature cart holds a big piece of paper with Mrs. Private Key's signature.
+
+### "To" Address
+
+The destination of a train is set in the "to" address. In our case, the "to" address
+will be the address of the smart contract.
+
+### "From" Address
+
+The "from" address indicates which train station the train left from. It's also what the
+signature is compared to by the validators. As long as the signature corresponds with the
+"from" address, the train continues towards the "to" address.
+
+<!-- ### Nonce ![nonce locomotive](/images/nonce.svg)
+
+The nonce is a number (like the one printed on the train) that indicates the number of
+trains a train station has sent off. It's another security measure that solves similar
+problems to the private key.
+
+Image once again someone is trying to rob your train station of funds. This time they're
+more clever about it -->
+
+## Summary
+
+So this is what our train looks like when we send it to the smart contract
+
+<!-- That's it! We'll revisit transactions when its time to mint. [Back to Challenge 0](/posts/2simpleNFT) -->
 
 <!-- There are **three** main kinds of trainsactions. The first kinds are transactions
 between EOAs, the second is a transaction from an EOA to a smart contract,
