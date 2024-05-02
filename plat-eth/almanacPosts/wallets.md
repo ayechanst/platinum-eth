@@ -66,7 +66,25 @@ to blockchain physics.
 If you've made a new wallet (not a new account), you'll have been given a seed phrase. This seed
 phrase -->
 
+<details>
+  <summary>TOTAL RECALL</summary>
+
 ---
+
+Instead of performing active recall, let's do some total recall. Answer the
+following in your head:
+
+> **Why** does Mrs. Private Key provide a signature for outgoing trains?
+
+> **How** do addresses provide us with information about EOAs?
+
+> **What** does the private key of an EOA control fundamentally?
+
+> **How** does the private key control this one thing?
+
+---
+
+</details>
 
 ## More content coming soon
 

@@ -73,7 +73,7 @@ Think of the address as a huge billboard above the station that can be seen for 
 Mrs. Private key is a reserved and secretive clerk who provides outgoing trains with a signature
 (a cryptographic proof) that the train originated from the **address** of train station she works at.
 
-Why do we need private keys?
+We will now explore a story where the purpose of Mrs. Private Key reveals itself.
 
 Let's say someone is trying to steal from you. Your station's address is public, so they walk into your
 train station, shovel your funds into a fruadulent train, and set the train's destination to their

@@ -66,6 +66,11 @@ The nonce is a number (like the one printed on the train) that indicates the num
 trains a train station has sent off. It's another security measure that solves similar
 problems to the private key.
 
+Printed on the side of the train is a nonce. A nonce is a number that indicates the current number
+of trains a train station has sent. The nonce is important for train stations sending value to
+each other, because if I sent several trains to my friend, I want to be sure that the
+trains arrive in the correct order to avoid complications.
+
 Image once again someone is trying to rob your train station of funds. This time they're
 more clever about it -->
 
