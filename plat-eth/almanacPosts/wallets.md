@@ -25,6 +25,25 @@ train.
 She was gone because she was inside the robot butler, and the robot butler doens't live on chain
 either! Ok, so the robot has a safe to protect private keys, but why is he a butler?
 
+<details>
+  <summary>Jargon Alert: Wallet Address</summary>
+
+---
+
+> Give me your **wallet address** so you can afford housing this month.
+
+**Q:** I know EOAs have an address, but what's a wallet address?
+
+**A:** What this person is referring to with the word "wallet address" is just the address of the
+primary EOA associated with your wallet.
+
+Technically, wallets don't have an address. But as with the word "account" referring to an EOA, the
+word "wallet address" is used to refer to the primary address of the EOA associated with your wallet.
+
+---
+
+</details>
+
 # Wallets live to serve, like butlers!
 
 It's beginning to sound like wallets do more than just hold private keys. Wallets exist to make
