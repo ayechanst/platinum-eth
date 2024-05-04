@@ -73,7 +73,7 @@ Think of the address as a huge billboard above the station that can be seen for 
 Mrs. Private key is a reserved and secretive clerk who provides outgoing trains with a signature
 (a cryptographic proof) that the train originated from the **address** of train station she works at.
 
-We will now explore a story where the purpose of Mrs. Private Key reveals itself.
+We will now explore a story where Mrs. Private Key reveals her purpose without even saying a word.
 
 Let's say someone is trying to steal from you. Your station's address is public, so they walk into your
 train station, shovel your funds into a fruadulent train, and set the train's destination to their
@@ -101,7 +101,7 @@ and why the analogy for EOAs are train stations.
 
 ### ![Ms. Public Key](/images/msPublicKey.svg) Ms. Public Key
 
-Info about public keys
+Info about public keys such as how they are made.
 
 ---
 
