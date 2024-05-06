@@ -75,6 +75,11 @@ deliveries. Smart contracts are so versatile, just like factories!
 Non-fungible tokens. There is a lot of information about these on the internet but none that are
 Platinum-Eth style.
 
+## "Mint NFT" to "proud owner of NFT"
+
+Using everything we learned, we will combine concepts to tell the story of a series of transactions
+made between your EOA, and the NFT minting smart contract.
+
 ---
 
 # Checkpoint 3: 💾 Deploy your contract! 🛰

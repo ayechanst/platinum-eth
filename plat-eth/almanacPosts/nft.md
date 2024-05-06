@@ -4,7 +4,8 @@ subtitle: "Why? Who cares you are the official owner of these pixels?"
 data: "2024-04-22"
 ---
 
-NFTs are super awesome.
+Remember how Web3 is just a network of accounts sending transactions to each other? Well
+NFTs are no different, because NFTs are also accounts, smart contract accounts specifically.
 
 ---
 
