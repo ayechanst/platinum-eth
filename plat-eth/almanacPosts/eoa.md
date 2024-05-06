@@ -100,8 +100,8 @@ and why the analogy for EOAs are train stations.
 ---
 
 ### ![Ms. Public Key](/images/msPublicKey.svg) Ms. Public Key
-
 Info about public keys such as how they are made.
+
 
 ---
 

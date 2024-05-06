@@ -4,6 +4,8 @@ subtitle: "How are they built? How do they opperate?"
 data: "2024-04-22"
 ---
 
+![factory banner](/images/factory-banner.svg)
+
 The second type of account is a **smart contract account**, also known a simply "smart contract".
 Smart contracts are like factories because they take in material, and do things with that
 material.
@@ -17,7 +19,7 @@ Remember the **data input** cart from the trainsaction section? Part of the inpu
 which sections of the executable code to run.
 
 The smart contract has the following relevant attributes that will be used to explain the flow
-of the whole challenge:
+of the challenge:
 
 ### Address
 
