@@ -57,8 +57,8 @@ an NFT, and sends you that NFT back in a transaction. Once the NFT is in your ac
 pop up.
 
 Of course there's more going on here than just that, so lets first explore **transations**, then
-look at **smart contracts**. After explaining those, we'll walk through all the steps between
-"Mint Item" and seeing the NFT on your user interface.
+look at **smart contracts**, and briefly cover what **NFTs** are. After explaining those, we'll walk
+through all the steps between "Mint Item" and seeing the NFT on your user interface.
 
 ### [Transactions](/almanacPosts/transactions)
 
@@ -69,6 +69,11 @@ to know within the context of this challenge?
 
 A smart contract is a kind of account that gets deliveries from trains, and does things with those
 deliveries. Smart contracts are so versatile, just like factories!
+
+### [NFTs](/almanacPosts/nft)
+
+Non-fungible tokens. There is a lot of information about these on the internet but none that are
+Platinum-Eth style.
 
 ---
 

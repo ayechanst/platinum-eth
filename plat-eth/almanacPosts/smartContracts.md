@@ -7,26 +7,39 @@ data: "2024-04-22"
 ![factory banner](/images/factory-banner.svg)
 
 The second type of account is a **smart contract account**, also known a simply "smart contract".
-Smart contracts are like factories because they take in material, and do things with that
-material.
+Smart contracts are like factories because they take in material from trains, and do things with that
+material. These "factories" come in all shapes, sizes, complexity, simplicity, and usecases.
+
+The Speed Run Ethereum challenges will have you build contracts and exposing you to the many
+possiblities of what can be done with smart contracts.
+
+> Smart contracts are **executable code** that is stored at a particular **address** on the blockchain.
+
+They inhabit the same "plane of existence" as train stations.
 
 # 🎟 Simple NFT Example
 
-Smart contracts are executable code that is stored at a particular **address** on the blockchain.
-They inhabit the same "plane of existence" as train stations.
-
-Remember the **data input** cart from the trainsaction section? Part of the input data specifies
-which sections of the executable code to run.
-
-The smart contract has the following relevant attributes that will be used to explain the flow
-of the challenge:
+For challenge 0, we will look at the two core components that define a smart contract: **addresses**
+(which you are familiar with), and the **executable code**.
 
 ### Address
 
-Just like train stations, factories have addresses too. Addresses are a way of organizing accounts
-so that users can immidiately distinguish them from one another.
+Train stations use addresses as a unique identifier to store a balance under.
 
-### Code Hash
+Smart contracts also use addresses, but instead use it to store **code**. When you send a train to
+a smart contract, you are setting the train's "to" address to the address of the smart contract.
+
+In general, addresses are just a way of organizing accounts so that users can immidiately distinguish
+them from one another.
+
+### Byte Code (Executable Code)
+
+The code a smart contract uses is called the **byte code**. The byte code is a set of instructions
+that define how the contract works. Think of the byte code as machines inside the factory.
+
+Remember the **data input** cart from the trainsaction section? Part of the input data specifies
+which machines to run. The rest of the input data are the "raw materials" for the factory to
+process.
 
 <!-- Where is this executable code stored exactly? The code is stored under the transaction that deployed
 the smart contract. See? Even a contract deployment is a transaction.  -->
@@ -40,8 +53,6 @@ Once deployed, the bytecode is not stored in the contract's storage. Instead, it
 not chat GPT: So the code hash is just a hash of the code that serves as a unique identifier for the contract's bytecode
 
 -->
-
-### Nonce
 
 ---
 
