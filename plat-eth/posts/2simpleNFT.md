@@ -75,10 +75,52 @@ deliveries. Smart contracts are so versatile, just like factories!
 Non-fungible tokens. There is a lot of information about these on the internet but none that are
 Platinum-Eth style.
 
-## "Mint NFT" to "proud owner of NFT"
+# From "Mint NFT" to "proud owner of NFT"
 
 Using everything we learned, we will combine concepts to tell the story of a series of transactions
 made between your EOA, and the NFT minting smart contract.
+
+<!-- ## 1. Connect wallet
+
+You have private keys managed by your robot butler, and you wanted to mint yourself some NFTs. So
+you clicked "connect wallet".
+
+## 2. Get Funds for gas
+
+We recieved funds. -->
+
+## 3. Clicking "Mint NFT"
+
+Relaxing in your train station full of funds, you decide its time to get some NFTs. Your butler
+begins to prepare a train.
+
+### 3.1 Train preparation
+
+The butler creates a train along with its three carts: gas, input data, and signature. The machines
+inside a factory are public knowledge, so the butler identifies which machines will mint and NFT,
+and determines what materials the machine will need.
+
+In this case the function will need your address. The gas cost is then calculated and coal is
+shovled into the gas cart. The butler sets the "to" address of the train to the address of the
+smart contract, and sets the "from" address to your station's address.
+
+Last, Mrs. Private Key signs paper work declaring this train is coming from your address. The train
+is then sent on its way.
+
+### 3.2 Train Journey
+
+The train at some point is inspected by validators. When the private key signature matches your address,
+the train is allowed to continue.
+
+### 3.3 Smart Contract Execution
+
+Upon arriving at the factory, the train unloads its **input data** into an input funnel at the top of the
+factory. The factory begins processing the data, and identifies the train's instructions are to use the
+`mintItem()` machine located in the factory.
+
+The factory prepares this function for use, and loads your address, into the machine.
+
+## 4. Seeing the NFT on you UI
 
 ---
 
