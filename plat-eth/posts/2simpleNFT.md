@@ -33,7 +33,7 @@ Don't worry, your account is "in" your wallet. Your wallet is like a protective 
 # Checkpoint 1: ⛽️ Gas & Wallets 👛
 
 We know what an EOA is now, and that our funds are in our EOA, not in a our wallet. So what is a wallet
-for then?
+for then? And what is gas for?
 
 ### [Wallets](/almanacPosts/wallets)
 
@@ -48,26 +48,28 @@ might have gotten stolen!
 
 # Checkpoint 2: 🖨 Minting
 
-This is where the fun begins! Its time to mint some NFTs and see whats going on. When you click
-"Mint Item" what actually happens? How do the NFTs just pop up on your user interface?
+Cool, so we know why gas and wallets exist. Thanks to our robot butler and the validators, we can
+safely send trains and prevent robberies.
 
-By clicking "Mint Item", you are sending a **transaction** to a **smart contract**, that then mints
-an NFT, and sends you that NFT back in a transaction. Once the NFT is in your account, you can see it
-pop up.
-
-Of course there's more going on here than just that, so lets first explore **transations**, then
-look at **smart contracts**, and briefly cover what **NFTs** are. After explaining those, we'll walk
-through all the steps between "Mint Item" and seeing the NFT on your user interface.
-
-### [Transactions](/almanacPosts/transactions)
-
-Anything sent between accounts are transactions. We know they use gas, but what else is relevant for us
-to know within the context of this challenge?
+We want to mint NFTs, but which train station mints NFTs? No train station mints NFTs. Complex
+tasks are handled by a new kind of building in Platinum-Eth: **Factories**.
 
 ### [Smart Contracts](/almanacPosts/smartContracts)
 
-A smart contract is a kind of account that gets deliveries from trains, and does things with those
-deliveries. Smart contracts are so versatile, just like factories!
+A smart contract is the OTHER type of account. Here is the difference: while an EOA can be
+represented as a **balance** associated with an **address**, a FACTORY can be represented as
+**executable code** associated with an **address**.
+
+To execute the code, just send a transaction to the smart contract's address. Let's dive in!
+
+### [Transactions](/almanacPosts/transactions)
+
+Trains are a tool to move value around between accounts. But that's not the only thing they can do.
+In this challenge, we arn't sending any value. We're minting an NFT, but how can a train do that?
+**What** do they carry other than value that allows them to do that?
+
+So let's look at trains now. Go ahead and send a train
+now by minting youself an NFT, so we can look at it!
 
 ### [NFTs](/almanacPosts/nft)
 

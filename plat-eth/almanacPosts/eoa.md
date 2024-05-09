@@ -51,7 +51,7 @@ so we'll cover **private keys**.
 
 ### ![balance](/images/balance.svg) Balance
 
-The train station can hold any amount of tokens.
+The train station can hold any amount of value.
 
 The balance of an account is simply a number representing the amount of value within the account.
 
@@ -63,6 +63,8 @@ Train stations have a unique address so people know where to send their trains. 
 public information, and anyone can look at the balances of your station.
 
 > Think of the address as a huge billboard above the station that can be seen for miles.
+
+Another way of thinking about EOAs, is a **balance** associated with a certain **address**.
 
 ### ![Mrs. Private Key](/images/mrsPrivateKey.svg) Mrs. Private Key
 

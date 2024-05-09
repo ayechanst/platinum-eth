@@ -4,8 +4,8 @@ subtitle: "Who makes transactions? What are their purpose?"
 data: "2024-04-22"
 ---
 
-Transations are like trains (train-saction). They carry things from one place to another. These
-trains can carry different carts depending on their use case.
+Transactions are like trains (train-saction). They move balances around, but what else can
+they do?
 
 # 🎟 Simple NFT Example
 
