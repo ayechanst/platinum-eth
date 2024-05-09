@@ -36,40 +36,62 @@ hash to see exactly what that transaction looked like. Then we can talk about ho
 All the data included in the transaction is hashed. This way the transaction has completely unique
 identifier.
 
+> The same applies to trains. Even if trains are mass produce, they each have small defects that make them unique.
+
 ### 2. "From" Address
 
 Here is where our train left from. Your address will be different from mine, but this is your train station's
 address, because you are the one that sent this train **to** the...
+
+> Think of the driver's cab on a train. There are important navigational controls, and an itenerary.
 
 ### 3. "To" Address
 
 You sent this train **to** the address of the smart contract responsible for minting NFTs. Of course the "to"
 address is important, so trains know where to go.
 
+> Also part of the trains itenerary, is the "to" address. Where's the train headed?
+
 ### 4. Value
 
 Transactions **can** carry value, for example when you send your friend some ETH. In this case however, the
 NFT minting smart contract doesn't require value to mint NFTs, so the **value** field is 0.
+
+> Imagine a train hauling a cart full of gold. That's the value!
 
 ### 5. Function Call
 
 We'll get more into this in the smart contract section, but the "function call" area here just specifies which
 function on the smart contract this transaction called. It's mintItem() in this case.
 
-### 6. Gas Price
+> The function call is an explicity written field, but in terms of our imaginary train, the function call is part of the input data!
+
+### 6. Gas Price ![gas cart](/images/gas-cart.svg)
 
 Although the minting was free, we still had to pay gas (also known as a transaction fee). You'll notice the units
 of gas is **Gwei**.
 
+> Trains haul their fuel along with them. For gas imagine a red cart full to the top with coal, acting as the train's gas.
+
 ### 7. Data ![data cart](/images/data-cart.svg)
 
-Here is our **data**, more specifically our **input data**.
+Here is our **data**, more specifically our **input data**. The contract will consume this data, call the function
+specified in **#5 Function Call**, and feed data into the **mintItem()** function.
 
-Our train looks like this:
+We can even see what the **input data** looks like, a long hexadecimal string. We will #8 and #9 later in the
+smart contract section.
+
+> Imagine the train pulls a cart full of glowing metal boxes.
+
+---
+
+# Picturing this Information
+
+Now that we visually saw what our transaction looks like, lets remove the fluff and picture it!
 
 ![trainsaction](/images/train.svg)
 
-Now lets break the train down to its essential cargo.
+This train above represents the essential cargo of your transaction: gas, data, and a signature.
 
 ### Gas ![gas cart](/images/gas-cart.svg)
 
@@ -102,17 +124,6 @@ something else.
 
 The signature cart holds a big piece of paper with Mrs. Private Key's signature.
 
-### "To" Address
-
-The destination of a train is set in the "to" address. In our case, the "to" address
-will be the address of the smart contract.
-
-### "From" Address
-
-The "from" address indicates which train station the train left from. It's also what the
-signature is compared to by the validators. As long as the signature corresponds with the
-"from" address, the train continues towards the "to" address.
-
 <!-- ### Nonce ![nonce locomotive](/images/nonce.svg)
 
 The nonce is a number (like the one printed on the train) that indicates the number of
@@ -130,84 +141,3 @@ more clever about it -->
 ## Summary
 
 So this is what our train looks like when we send it to the smart contract
-
-<!-- That's it! We'll revisit transactions when its time to mint. [Back to Challenge 0](/posts/2simpleNFT) -->
-
-<!-- There are **three** main kinds of trainsactions. The first kinds are transactions
-between EOAs, the second is a transaction from an EOA to a smart contract,
-and the third transaction is an EOA deloying a smart contract account.
-
-## 1. Transactions between train stations
-
-![regular trainsaction](http://localhost:3000/images/train.svg)
-
-Regular transactions happen between two accounts, like when you send your friend some ETH.
-These transactions are the most basic and carry the following cargo, which you can track
-yourself by looking at the transactions tab under your account's address on [Etherscan](https://etherscan.io/)
-and clicking on the transaction hash.
-
-## Cargo
-
----
-
-### 1.1 Value
-
-Value are the tokens being transfered. The wagon that says "V" on it represents this data field.
-If you check [Etherscan](https://etherscan.io/), you'll be able to find a field by clicking on
-transactions hashes that displays how much value was sent in the trainsaction.
-
-### 1.2 Signature
-
-The signature is your train station's stamp of approval. It says: "This transaction comes from
-from my address and I approve this trainsaction". The wagon is depicted with an "S" on it for
-signature. Think of it like a big peice of paper that Mrs. Private Key stamped with a big red
-wax seal.
-
-### 1.3 Gas
-
-The trainsaction needs gas to move. Think of the gas as coal fuel for the train, depicted by
-the "G" wagon. Read more about [gas](/almanacPosts/gas) here if you're curious.
-
-## Navigation
-
----
-
-### 1.4 "To" Address
-
-In the train's cockpit, there is a display that tells the train which train station its heading
-to.
-
-### 1.5 "From" Address
-
-On the paper with the signature on it, is a "from address" that indicates which train station the
-train is headed from.
-
-- The "from address" is crucial to [node validators](/almanacPosts/nodeValidators) (the space ships
-  supervising the construction of blockchains) to prevent fraudulent trains. Node validators use the
-  "from address" to decrypt Mrs. Private Key's signature. If the signature and the "from address"
-  match up, the train continues onto its destination.
-- The "from address" is also important so train stations know who sent them value!
-
-### 1.6 Nonce
-
-Printed on the side of the train is a nonce. A nonce is a number that indicates the current number
-of trains a train station has sent. The nonce is important for train stations sending value to
-each other, because if I sent several trains to my friend, I want to be sure that the
-trains arrive in the correct order to avoid complications.
-
----
-
-# 2. Transactions from train stations to factories
-
-When you interact with a smart contract, you are sending a trainsaction to it. These trains are different
-from trains being sent between train stations.
-
-# 3. Smart Contract Deployment (its a transaction too!)
-
-![Smart Contract Train](http://localhost:3000/images/contractTrain.svg) -->
-
----
-
-Work in progress
-
----
