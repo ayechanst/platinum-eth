@@ -19,28 +19,29 @@ gas and wallets.
 **Transactions** are like trains, they allow accounts to send resources and communicate. If transactions
 are like trains, then **accounts** must be like train stations!
 
+### [Externally Owned Accounts](/almanacPosts/eoa)
+
+Once you get your funds for gas, the funds will be stored in your externally owned account. It's like
+your home base. Click the link to read this section.
+
 > BUT WAIT! I connected my **wallet** to get funds, not my **account**.
 
 Don't worry, your account is "in" your wallet. Your wallet is like a protective shell for your accounts.
-
-### [Externally Owned Accounts](/almanacPosts/eoa)
-
-It's an account where your funds for gas will be stored. It's like a home base.
 
 ---
 
 # Checkpoint 1: ⛽️ Gas & Wallets 👛
 
-So we want to load our wallets (which we now know actually loads our EOA) with funds to pay for gas.
+We know what an EOA is now, and that our funds are in our EOA, not in a our wallet. So what is a wallet
+for then?
 
 ### [Wallets](/almanacPosts/wallets)
 
-Why did we use a wallet instead of directly using our EOA?
+A wallet is an off-chain tool that holds **private keys** in order to manage **EOA**s.
 
 ### [Gas](/almanacPosts/gas)
 
-Gas for transactions in Ethereum is just like fuel for a train. It's useful to think of gas in this
-way, but of course transactions don't use gas the same way a train would. So what is **gas**?
+Trains need gas to get to where they're going. But why? They arn't actual trains!
 
 ---
 

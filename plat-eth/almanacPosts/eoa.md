@@ -95,8 +95,9 @@ Transactions go nowhere without the correct private key signature. Your **addres
 is public, but no one can do anything with your **balance** without your private key! They just can't move funds
 around.
 
-What if the theif had your private key? Well then the train would have passed the checkpoints and your funds would
-have been stolen!
+> They who control the private key control the BALANCE!
+
+Question for you: Would you still have funds if the theif had your private key?
 
 That's all you need to know about EOAs for Challenge 0! Time to head [back](/posts/2simpleNFT) and read about
 **wallets**, the home of Mrs. Private Key.
