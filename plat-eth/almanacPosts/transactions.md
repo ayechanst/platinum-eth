@@ -9,11 +9,49 @@ trains can carry different carts depending on their use case.
 
 # 🎟 Simple NFT Example
 
+![trainsaction](/images/train.svg)
+
+This train above represents the essential cargo of your transaction: gas, data, and a signature.
+
+### Gas ![gas cart](/images/gas-cart.svg)
+
+As we covered, transactions need gas. Can you remember the reasons?
+How much gas do we need? How much gas will we pay? The total cost of gas depends on two things:
+
+1. What our input data is doing
+2. How much gas costs per unit
+
+Our data cart will instruct the factory to execute different actions. Some actions cost
+more units of gas than others. And depending on the transaction, there could be different
+amounts of actions to executed. We will cover what these actions are in the smart contract
+section.
+
+The same actions will always costs the same amount of gas units. But the price of gas will
+fluxuate along with the market, so transactions doing the same thing could cost different
+amounts at different times of day.
+
+### ![data cart](/images/data-cart.svg) Input Data
+
+The data cart is like the raw material the factory consumes. There is a lot to unpack
+with the data cart, and it will make more sense to cover it in the smart contract
+section.
+
+For now just think of the input data as raw material that the factory will change into
+something else.
+
+### Signature ![signature cart](/images/signature-cart.svg)
+
+The signature cart holds a big piece of paper with Mrs. Private Key's signature. The signature
+was not included on the "transaction details" because the signature is not stored on chain.
+However signatures are a crucial concept and outgoing transactions from EOAs always have
+signatures.
+
+# Exploring the Blockchain: Transactions
+
 As soon as we click "Mint Item", our EOA sends a transaction to the **address** of the NFT minting
 smart contract. What does our transaction look like in this case? How do we know what it looks like?
 
 Mint yourself **one** NFT in the "My NFTs" tab, then we'll have something to look at.
-
 When your done, click on the "Transfers" tab, it should look like the picture below.
 
 ![transfers tab](/images/transactions-tab.jpg)
@@ -84,45 +122,6 @@ smart contract section.
 > Imagine the train pulls a cart full of glowing metal boxes.
 
 ---
-
-# Picturing this Information
-
-Now that we visually saw what our transaction looks like, lets remove the fluff and picture it!
-
-![trainsaction](/images/train.svg)
-
-This train above represents the essential cargo of your transaction: gas, data, and a signature.
-
-### Gas ![gas cart](/images/gas-cart.svg)
-
-As we covered, transactions need gas. Can you remember the reasons?
-
-How much gas do we need? How much gas will we pay? The total cost of gas depends on two things:
-
-1. What our input data is doing
-2. How much gas costs per unit
-
-Our data cart will instruct the factory to execute different actions. Some actions cost
-more units of gas than others. And depending on the transaction, there could be different
-amounts of actions to executed. We will cover what these actions are in the smart contract
-section.
-
-The same actions will always costs the same amount of gas units. But the price of gas will
-fluxuate along with the market, so transactions doing the same thing could cost different
-amounts at different times of day.
-
-### ![data cart](/images/data-cart.svg) Input Data
-
-The data cart is like the raw material the factory consumes. There is a lot to unpack
-with the data cart, and it will make more sense to cover it in the smart contract
-section.
-
-For now just think of the input data as raw material that the factory will change into
-something else.
-
-### Signature ![signature cart](/images/signature-cart.svg)
-
-The signature cart holds a big piece of paper with Mrs. Private Key's signature.
 
 <!-- ### Nonce ![nonce locomotive](/images/nonce.svg)
 
