@@ -31,6 +31,40 @@ hash to see exactly what that transaction looked like. Then we can talk about ho
 
 ![transaction details](/images/transaction-details.jpg)
 
+### 1. Transaction Hash
+
+All the data included in the transaction is hashed. This way the transaction has completely unique
+identifier.
+
+### 2. "From" Address
+
+Here is where our train left from. Your address will be different from mine, but this is your train station's
+address, because you are the one that sent this train **to** the...
+
+### 3. "To" Address
+
+You sent this train **to** the address of the smart contract responsible for minting NFTs. Of course the "to"
+address is important, so trains know where to go.
+
+### 4. Value
+
+Transactions **can** carry value, for example when you send your friend some ETH. In this case however, the
+NFT minting smart contract doesn't require value to mint NFTs, so the **value** field is 0.
+
+### 5. Function Call
+
+We'll get more into this in the smart contract section, but the "function call" area here just specifies which
+function on the smart contract this transaction called. It's mintItem() in this case.
+
+### 6. Gas Price
+
+Although the minting was free, we still had to pay gas (also known as a transaction fee). You'll notice the units
+of gas is **Gwei**.
+
+### 7. Data ![data cart](/images/data-cart.svg)
+
+Here is our **data**, more specifically our **input data**.
+
 Our train looks like this:
 
 ![trainsaction](/images/train.svg)
