@@ -11,24 +11,21 @@ to explain what's going on behind the scenes in this straight-forward challenge.
 
 Web3 can be summarized in this one sentence:
 
-> Ethereum is network of accounts sending transactions to each other.
+> Ethereum is network of **accounts** sending **transactions** to each other.
 
-Before diving into gas and wallets, let's cover those two fundamental building blocks: **accounts**,
-and **transactions**.
-
-> BUT WAIT! I connected my **wallet** to get funds, not my **account**.
-
-Don't worry, your account is "in" your wallet. Your wallet is like a protective shell for your accounts,
-we'll go deeper on wallets in checkpoint 1.
+Understanding those two fundamental building blocks: **accounts** and **transactions** will help explain
+gas and wallets.
 
 **Transactions** are like trains, they allow accounts to send resources and communicate. If transactions
 are like trains, then **accounts** must be like train stations!
 
+> BUT WAIT! I connected my **wallet** to get funds, not my **account**.
+
+Don't worry, your account is "in" your wallet. Your wallet is like a protective shell for your accounts.
+
 ### [Externally Owned Accounts](/almanacPosts/eoa)
 
-There are two kinds of accounts, this one is the first. It's an account where your funds for gas will
-be stored, as well as your NFTs once you mint them. This account is also where your NFT transaction
-will originate, its like a home base!
+It's an account where your funds for gas will be stored. It's like a home base.
 
 ---
 

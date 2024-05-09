@@ -67,6 +67,19 @@ account has enough value to cover the price of gas.
 The second transaction that was made was when we clicked the "Mint Item" button. Click on the transaction
 hash to see exactly what that transaction looked like. Then we can talk about how that "train" looks.
 
+<!-- <details>
+  <summary>Where is the transaction "from" the contract "to" my address?</summary>
+
+---
+
+This is a great question. NFTs are never "sent" to anyone, instead NFTs change owners. When we look at the
+code for the NFT smart contract, you will see that calling the "mintItem()" function makes you the owner
+of the NFT.
+
+---
+
+</details> -->
+
 ![transaction details](/images/transaction-details.jpg)
 
 ### 1. Transaction Hash
@@ -136,7 +149,3 @@ trains arrive in the correct order to avoid complications.
 
 Image once again someone is trying to rob your train station of funds. This time they're
 more clever about it -->
-
-## Summary
-
-So this is what our train looks like when we send it to the smart contract
