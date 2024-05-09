@@ -86,7 +86,6 @@ You have private keys managed by your robot butler, and you wanted to mint yours
 you clicked "connect wallet".
 
 ## 2. Get Funds for gas
-
 We recieved funds. -->
 
 ## 3. Clicking "Mint NFT"

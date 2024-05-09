@@ -10,7 +10,26 @@ trains can carry different carts depending on their use case.
 # 🎟 Simple NFT Example
 
 As soon as we click "Mint Item", our EOA sends a transaction to the **address** of the NFT minting
-smart contract. What does our transaction look like in this case?
+smart contract. What does our transaction look like in this case? How do we know what it looks like?
+
+Mint yourself **one** NFT in the "My NFTs" tab, then we'll have something to look at.
+
+When your done, click on the "Transfers" tab, it should look like the picture below.
+
+![transfers tab](/images/transactions-tab.jpg)
+
+Then click on your address to look at all the transactions you've made so far. It should look like
+this:
+
+![transfers history](/images/transaction-history.jpg)
+
+As you can see, the first transaction made has a **value** of 1 ETH. We made this transaction so our
+account has enough value to cover the price of gas.
+
+The second transaction that was made was when we clicked the "Mint Item" button. Click on the transaction
+hash to see exactly what that transaction looked like. Then we can talk about how that "train" looks.
+
+![transaction details](/images/transaction-details.jpg)
 
 Our train looks like this:
 
