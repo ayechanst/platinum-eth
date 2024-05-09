@@ -41,7 +41,8 @@ A wallet is an off-chain tool that holds **private keys** in order to manage **E
 
 ### [Gas](/almanacPosts/gas)
 
-Trains need gas to get to where they're going. But why? They arn't actual trains!
+Remember those kind checkpoint workers who stopped that theif from stealing? Without gas, your funds
+might have gotten stolen!
 
 ---
 

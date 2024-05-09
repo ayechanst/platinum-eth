@@ -53,31 +53,28 @@ Wallets exist to make the user experience in crypto better.
 This is where the robot butler comes in. You click buttons on a decentralized app "instructing" your
 butler what to do, and he takes care of the rest!
 
-Storytime:
+# Storytime
 
-**Chapter 1: You owe some money**
+**Chapter 1: You owe some money** Your friend needs ETH tokens. So you get on MetaMask (your wallet,
+your "butler"), type your friend's train station address, select how much ETH you want to send, and
+click "send".
 
-<!-- # The butler can also teleport.
+**Chapter 2: Back in Platinum-Eth** Your butler springs into action! He assembles a train, he shovels
+charcoal (gas) into the train, he shovels a pile of tokens into the train, he lets Mrs. Private Key
+sign her signature, and sends the train on its way!
 
-Wallets can manage multiple accounts. Wallets are not part of the blockchain, so they don't adhere
-to blockchain physics.
-
-# Robot Butlers make private keys
-
-If you've made a new wallet (not a new account), you'll have been given a seed phrase. This seed
-phrase -->
+**Chapter 3: Moral** When you are interacting with your EOA, you are doing so through your wallet.
+Your robot butler manages everything so you can focus on the important things like **who** you're
+sending to, and **how much**.
 
 <details>
-  <summary>TOTAL RECALL</summary>
+  <summary>Active Recall Excersize</summary>
 
 ---
 
-Instead of performing active recall, let's do some total recall. Answer the
-following in your head:
+Answer the following in your head:
 
 > **Why** does Mrs. Private Key provide a signature for outgoing trains?
-
-> **How** do addresses provide us with information about EOAs?
 
 > **What** does the private key of an EOA control fundamentally?
 
@@ -87,30 +84,4 @@ following in your head:
 
 </details>
 
-## More content coming soon
-
-<!-- # Improving User Experience
-
-Crypto wallets exist to make management easier. Wallets are also
-essential for improving the user experience, and make crypto accessible to everyone without
-drowning them in details.
-
-When you make a new software wallet, the wallet will give you a seed phrase. From this seed phrase
-a private key is derived (as we explored in the EOA section), which derives a public key, which
-derives an address.
-
-A wallet can manage multiple EOAs. Multiple private keys can be made from a single seed phrase.
-The butler is so good at his job he can essentially teleport to which ever station he needs to be at.
-
-# Where are wallets?
-
-**Not** on the blockchain!
-Wallets, unlike EOAs and transactions, are **not** part of the blockchain. Instead they interact with
-your EOAs on the blockchain using your private keys you gave the wallet access to.
-
-The robot butler's
-chest is a safe with all your private keys inside. The combination to open it is your seed phrase.
-If the butler has your keys, and the butler is not on chain, than neither are your keys!
-
-Private keys will **never** be on the blockchain, or else everyone could see them and start forging
-transactions like crazy! -->
+Now it's gas time! Let's head [back](/posts/2simpleNFT)
