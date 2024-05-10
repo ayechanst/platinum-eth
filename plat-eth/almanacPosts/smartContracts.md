@@ -6,40 +6,24 @@ data: "2024-04-22"
 
 ![factory banner](/images/factory-banner.svg)
 
-The second type of account is a **smart contract account**, also known a simply "smart contract".
-Smart contracts are like factories because they take in material from trains, and do things with that
-material. These "factories" come in all shapes, sizes, complexity, simplicity, and usecases.
-
-The Speed Run Ethereum challenges will have you build contracts and exposing you to the many
-possiblities of what can be done with smart contracts.
-
 > Smart contracts are **executable code** that is stored at a particular **address** on the blockchain.
-
-They inhabit the same "plane of existence" as train stations.
 
 # 🎟 Simple NFT Example
 
-For challenge 0, we will look at the two core components that define a smart contract: **addresses**
-(which you are familiar with), and the **executable code**.
+For challenge 0, we will look at the two core components that define a smart contract: an **address**
+and **executable code**.
 
 ### Address
 
-Train stations use addresses as a unique identifier to store a balance under.
-
-Smart contracts also use addresses, but instead use it to store **code**. When you send a train to
-a smart contract, you are setting the train's "to" address to the address of the smart contract.
-
-In general, addresses are just a way of organizing accounts so that users can immidiately distinguish
-them from one another.
+Similarly to EOAs, smart contracts also have an address. In general, addresses are a way of differentiating
+accounts.
 
 ### Byte Code (Executable Code)
 
-The code a smart contract uses is called the **byte code**. The byte code is a set of instructions
-that define how the contract works. Think of the byte code as machines inside the factory.
+The executable code is called the **byte code**, and it's just a higher level language such as Solidity that
+has been compiled into machine code.
 
-Remember the **data input** cart from the trainsaction section? Part of the input data specifies
-which machines to run. The rest of the input data are the "raw materials" for the factory to
-process.
+Think of the byte code as machines inside the factory.
 
 <!-- Where is this executable code stored exactly? The code is stored under the transaction that deployed
 the smart contract. See? Even a contract deployment is a transaction.  -->

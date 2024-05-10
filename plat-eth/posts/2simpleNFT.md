@@ -51,16 +51,17 @@ might have gotten stolen!
 Cool, so we know why gas and wallets exist. Thanks to our robot butler and the validators, we can
 safely send trains and prevent robberies.
 
-We want to mint NFTs, but which train station mints NFTs? No train station mints NFTs. Complex
-tasks are handled by a new kind of building in Platinum-Eth: **Factories**.
+EOAs can do simple things like store balances, but how can we do complex things like mint NFTs?
+Let's intorduce a new building to our railway network: **Factories**. Smart contracts are like
+factories because they take in material, and output a result.
 
 ### [Smart Contracts](/almanacPosts/smartContracts)
 
-A smart contract is the OTHER type of account. Here is the difference: while an EOA can be
-represented as a **balance** associated with an **address**, a FACTORY can be represented as
+A smart contract is the other type of account. The difference is that while an EOA can be
+represented as a **balance** associated with an **address**, a smart contract is represented as
 **executable code** associated with an **address**.
 
-To execute the code, just send a transaction to the smart contract's address. Let's dive in!
+Code is executed by sending a transaction to the smart contract's address. Let's dive in!
 
 ### [Transactions](/almanacPosts/transactions)
 
