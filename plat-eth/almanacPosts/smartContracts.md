@@ -23,23 +23,96 @@ accounts.
 The executable code is called the **byte code**, and it's just a higher level language such as Solidity that
 has been compiled into machine code.
 
-Think of the byte code as machines inside the factory.
+<details>
+  <summary>Visual Example</summary>
 
-<!-- Where is this executable code stored exactly? The code is stored under the transaction that deployed
-the smart contract. See? Even a contract deployment is a transaction.  -->
+Challenge 0 doesn't require you to understand any code, this is just to expose you to the inner workings
+of factories. Here is the executable code that will mint you your NFT.
 
-<!-- From chatGPT (on bytecode and code hash):
+Think of each `function()` in the code below as **individual machines** within the factory. When we explore
+transactions, we'll uncover how specific machines are turned on when the train arrive to the factory.
 
-The bytecode of a smart contract is stored on the blockchain itself, specifically in the transaction that deploys the contract. When a contract is deployed, the transaction includes the bytecode of the contract as part of its data. This bytecode is then stored on the blockchain along with the transaction information.
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.2; //Do not change the solidity version as it negatively impacts submission grading
 
-Once deployed, the bytecode is not stored in the contract's storage. Instead, it is stored in a special location on the blockchain that is associated with the contract's address. This allows other contracts and applications to access the bytecode when needed, such as when verifying the code hash of the contract.
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/utils/Counters.sol";
 
-not chat GPT: So the code hash is just a hash of the code that serves as a unique identifier for the contract's bytecode
+contract YourCollectible is
+	ERC721,
+	ERC721Enumerable,
+	ERC721URIStorage,
+	Ownable
+{
+	using Counters for Counters.Counter;
 
--->
+	Counters.Counter public tokenIdCounter;
 
----
+	constructor() ERC721("YourCollectible", "YCB") {}
 
-Under construction
+	function _baseURI() internal pure override returns (string memory) {
+		return "https://ipfs.io/ipfs/";
+	}
 
----
+	function mintItem(address to, string memory uri) public returns (uint256) {
+		tokenIdCounter.increment();
+		uint256 tokenId = tokenIdCounter.current();
+		_safeMint(to, tokenId);
+		_setTokenURI(tokenId, uri);
+		return tokenId;
+	}
+
+	// The following functions are overrides required by Solidity.
+
+	function _beforeTokenTransfer(
+		address from,
+		address to,
+		uint256 tokenId,
+		uint256 quantity
+	) internal override(ERC721, ERC721Enumerable) {
+		super._beforeTokenTransfer(from, to, tokenId, quantity);
+	}
+
+	function _burn(
+		uint256 tokenId
+	) internal override(ERC721, ERC721URIStorage) {
+		super._burn(tokenId);
+	}
+
+	function tokenURI(
+		uint256 tokenId
+	) public view override(ERC721, ERC721URIStorage) returns (string memory) {
+		return super.tokenURI(tokenId);
+	}
+
+	function supportsInterface(
+		bytes4 interfaceId
+	)
+		public
+		view
+		override(ERC721, ERC721Enumerable, ERC721URIStorage)
+		returns (bool)
+	{
+		return super.supportsInterface(interfaceId);
+	}
+}
+
+```
+
+All of these functions and the code as a whole is compiled into hexadecimal bytecode.
+Below is just the start of the compiled Solidity code above:
+
+60806040523480156200001157600080fd5b506040518060400160405280600f
+
+</details>
+
+Why is this important to know now? We are laying the foundation for future concepts to
+stick better. Smart contracts are **factories** and each function is machine that does
+a specific thing.
+
+Take a look at all the functions, can you guess which function we will be calling when we
+mint our NFT?

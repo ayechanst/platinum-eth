@@ -1,4 +1,6 @@
 import { ReactNode } from "react";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 interface CustomLinkProps {
   children: ReactNode;
@@ -127,6 +129,19 @@ const CustomQuote = ({
   </blockquote>
 );
 
+const CustomCode = ({
+  children,
+}: {
+  children: ReactNode;
+}) => (
+  <SyntaxHighlighter
+    language="solidity"
+    style={vscDarkPlus}
+  >
+    {String(children).trim()}
+  </SyntaxHighlighter>
+);
+
 export const options = {
   overrides: {
     h1: {
@@ -155,6 +170,9 @@ export const options = {
     },
     blockquote: {
       component: CustomQuote,
+    },
+    code: {
+      component: CustomCode,
     },
   },
 };
