@@ -1,4 +1,8 @@
-import { ReactNode, useEffect, useState } from "react";
+import React, {
+  ReactNode,
+  useEffect,
+  useState,
+} from "react";
 // import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 
@@ -134,7 +138,7 @@ const CustomQuote = ({
 );
 
 const SyntaxHighlighter = React.lazy(
-  () => import("react-syntax-highlighter")
+  () => import( {Prism as react-syntax-highlighter} )
 );
 
 const CustomCode = ({ children }: { children: string }) => {
@@ -155,20 +159,20 @@ const CustomCode = ({ children }: { children: string }) => {
   ) : null;
 };
 
-const CustomInlineCode = ({
-  children,
-}: {
-  children: ReactNode;
-}) => (
-  <code
-    style={{
-      backgroundColor: "#f4f4f4",
-      borderRadius: "0.3em",
-    }}
-  >
-    {children}
-  </code>
-);
+// const CustomInlineCode = ({
+//   children,
+// }: {
+//   children: ReactNode;
+// }) => (
+//   <code
+//     style={{
+//       backgroundColor: "#f4f4f4",
+//       borderRadius: "0.3em",
+//     }}
+//   >
+//     {children}
+//   </code>
+// );
 
 export const options = {
   overrides: {
