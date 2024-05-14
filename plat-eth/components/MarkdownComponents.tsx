@@ -76,7 +76,11 @@ const CustomList = ({
   children,
 }: {
   children: ReactNode;
-}) => <ul style={{ fontSize: "17px" }}>{children}</ul>;
+}) => (
+  <ul style={{ fontSize: "17px", lineHeight: "2" }}>
+    {children}
+  </ul>
+);
 
 // Custom image component with adjustable spacing
 const CustomImage = ({ src }: { src: string }) => (
@@ -172,8 +176,8 @@ export const options = {
     blockquote: {
       component: CustomQuote,
     },
-    code: {
-      component: CustomCode,
-    },
+    // code: {
+    //   component: CustomCode,
+    // },
   },
 };
