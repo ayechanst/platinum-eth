@@ -1,9 +1,5 @@
-import React, {
-  ReactNode,
-  useEffect,
-  useState,
-} from "react";
-// import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import React, { ReactNode } from "react";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 interface CustomLinkProps {
@@ -137,42 +133,35 @@ const CustomQuote = ({
   </blockquote>
 );
 
-const SyntaxHighlighter = React.lazy(
-  () => import( {Prism as react-syntax-highlighter} )
+const CustomCodeBlock = ({
+  children,
+}: {
+  children: ReactNode;
+}) => (
+  <SyntaxHighlighter
+    language="solidity" // Set the appropriate language
+    style={vscDarkPlus}
+    showLineNumbers
+  >
+    {String(children).trim()}
+  </SyntaxHighlighter>
 );
 
-const CustomCode = ({ children }: { children: string }) => {
-  const [isClient, setIsClient] = useState(false);
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-  return isClient ? (
-    <React.Suspense fallback={<div>Loading...</div>}>
-      <SyntaxHighlighter
-        language="solidity"
-        style={vscDarkPlus}
-        showLineNumbers
-      >
-        {children?.trim()}
-      </SyntaxHighlighter>
-    </React.Suspense>
-  ) : null;
-};
-
-// const CustomInlineCode = ({
-//   children,
-// }: {
-//   children: ReactNode;
-// }) => (
-//   <code
-//     style={{
-//       backgroundColor: "#f4f4f4",
-//       borderRadius: "0.3em",
-//     }}
-//   >
-//     {children}
-//   </code>
-// );
+const CustomInlineCode = ({
+  children,
+}: {
+  children: ReactNode;
+}) => (
+  <code
+    style={{
+      backgroundColor: "#f4f4f4",
+      borderRadius: "0.3em",
+      padding: "0.2em 0.4em",
+    }}
+  >
+    {children}
+  </code>
+);
 
 export const options = {
   overrides: {
@@ -203,22 +192,11 @@ export const options = {
     blockquote: {
       component: CustomQuote,
     },
-    // code: {
-    //   component: ({ inline = false, children = "" }) => {
-    //     const codeContent = children[0];
-    //     if (inline) {
-    //       return (
-    //         <CustomInlineCode>
-    //           {codeContent}
-    //         </CustomInlineCode>
-    //       );
-    //     } else {
-    //       return <CustomCode code={codeContent} />;
-    //     }
-    //   },
-    // },
     code: {
-      component: CustomCode,
+      component: CustomCodeBlock,
+    },
+    inlineCode: {
+      CustomInlineCode,
     },
   },
 };
