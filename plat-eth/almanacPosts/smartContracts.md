@@ -34,7 +34,7 @@ transactions, we'll uncover how specific machines are turned on when the train a
 
 ```solidity
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.2; //Do not change the solidity version as it negatively impacts submission grading
+pragma solidity ^0.8.2;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";

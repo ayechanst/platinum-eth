@@ -1,14 +1,10 @@
-import { ReactNode } from "react";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { ReactNode, useEffect, useState } from "react";
+// import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 interface CustomLinkProps {
   children: ReactNode;
   href: string;
-}
-
-interface CustomCodeProps {
-  code?: string;
 }
 
 const CustomHeading1 = ({
@@ -137,14 +133,41 @@ const CustomQuote = ({
   </blockquote>
 );
 
-const CustomCode = ({ code = "" }: CustomCodeProps) => (
-  <SyntaxHighlighter
-    language="solidity"
-    style={vscDarkPlus}
-    showLineNumbers
+const SyntaxHighlighter = React.lazy(
+  () => import("react-syntax-highlighter")
+);
+
+const CustomCode = ({ children }: { children: string }) => {
+  const [isClient, setIsClient] = useState(false);
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+  return isClient ? (
+    <React.Suspense fallback={<div>Loading...</div>}>
+      <SyntaxHighlighter
+        language="solidity"
+        style={vscDarkPlus}
+        showLineNumbers
+      >
+        {children?.trim()}
+      </SyntaxHighlighter>
+    </React.Suspense>
+  ) : null;
+};
+
+const CustomInlineCode = ({
+  children,
+}: {
+  children: ReactNode;
+}) => (
+  <code
+    style={{
+      backgroundColor: "#f4f4f4",
+      borderRadius: "0.3em",
+    }}
   >
-    {code.trim()}
-  </SyntaxHighlighter>
+    {children}
+  </code>
 );
 
 export const options = {
@@ -177,7 +200,21 @@ export const options = {
       component: CustomQuote,
     },
     // code: {
-    //   component: CustomCode,
+    //   component: ({ inline = false, children = "" }) => {
+    //     const codeContent = children[0];
+    //     if (inline) {
+    //       return (
+    //         <CustomInlineCode>
+    //           {codeContent}
+    //         </CustomInlineCode>
+    //       );
+    //     } else {
+    //       return <CustomCode code={codeContent} />;
+    //     }
+    //   },
     // },
+    code: {
+      component: CustomCode,
+    },
   },
 };
