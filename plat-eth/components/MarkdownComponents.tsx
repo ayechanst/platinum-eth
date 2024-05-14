@@ -7,6 +7,10 @@ interface CustomLinkProps {
   href: string;
 }
 
+interface CustomCodeProps {
+  code?: string;
+}
+
 const CustomHeading1 = ({
   children,
 }: {
@@ -129,16 +133,13 @@ const CustomQuote = ({
   </blockquote>
 );
 
-const CustomCode = ({
-  children,
-}: {
-  children: ReactNode;
-}) => (
+const CustomCode = ({ code = "" }: CustomCodeProps) => (
   <SyntaxHighlighter
     language="solidity"
     style={vscDarkPlus}
+    showLineNumbers
   >
-    {String(children).trim()}
+    {code.trim()}
   </SyntaxHighlighter>
 );
 
