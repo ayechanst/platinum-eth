@@ -138,13 +138,16 @@ const CustomCodeBlock = ({
 }: {
   children: ReactNode;
 }) => (
-  <SyntaxHighlighter
-    language="solidity" // Set the appropriate language
-    style={vscDarkPlus}
-    showLineNumbers
-  >
-    {String(children).trim()}
-  </SyntaxHighlighter>
+  <React.Suspense fallback={<div>Loading...</div>}>
+    <SyntaxHighlighter
+      language="solidity"
+      style={vscDarkPlus}
+      showLineNumbers
+      key={String(children).trim()}
+    >
+      {String(children).trim()}
+    </SyntaxHighlighter>
+  </React.Suspense>
 );
 
 const CustomInlineCode = ({
@@ -194,9 +197,6 @@ export const options = {
     },
     code: {
       component: CustomCodeBlock,
-    },
-    inlineCode: {
-      CustomInlineCode,
     },
   },
 };
