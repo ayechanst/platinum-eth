@@ -41,16 +41,37 @@ Look familiar?
 
 ![function data](/images/function-data.jpg)
 
-But what's up with the data cart?
+But what's up with the data cart? Look's awfully like some bytecode from the smart contract
+section. Do the first 8 characters look familiar **(110bcd45)**? The first 4 bytes (8 bits/characters)
+of transaction data is always the function selector. In this case its the mintItem() function.
 
-The data cart contains instructions that your robot butler (wallet) took care of for you.
+How about **4a39...dc69**? That's my address but on your computer you should see yours. Look at
+the "Function called" picture. The first argument the machine needs an **address** to operate.
+
+Now check out **2e51...5871** hexadecimal converted to text. It's QmfVMAmNM1kD... the second argument
+that the machine needs to run.
+
+Simply put, the instructions read:
+
+> Factory, when you get this train, get machine **110bcd45** ready. Then feed in **4a39...dc69** and **2e51...5871**.
+
+What's with all the 0's in between? Great question :) this is already low leveled enough for the first
+challenge, so we'll keep some goodies for later when it's more appropriate to dive deeper.
 
 ### Gas ![gas cart](/images/gas-cart.svg)
 
 Of course, transactions need gas. Can you remember the reasons?
 How much gas do we need? How much gas will we pay? The total cost of gas depends on two things:
 
-1. What our input data is doing
+**1. What function we are calling**
+
+Each opperation in the instructions (the bytecode) has a cost, proportional to it's computational
+intensity. In the case of mintItem() the steps are the following:
+
+```
+
+```
+
 2. How much gas costs per unit
 
 Our data cart will instruct the factory to execute different actions. Some actions cost
