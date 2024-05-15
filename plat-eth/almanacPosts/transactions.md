@@ -11,11 +11,43 @@ they do?
 
 ![trainsaction](/images/train.svg)
 
-This train above represents the essential cargo of your transaction: gas, data, and a signature.
+This train above represents the essential cargo of your transaction to the Simple NFT smart
+contract: gas, data, and a signature.
+
+Let's explain each cart, but also look directly at what the cart looks like in non-metaphorical
+terms!
+
+![transfers tab](/images/transactions-tab.jpg)
+
+Then click on your address to look at all the transactions you've made so far. It should look like
+this:
+
+![transfers history](/images/transaction-history.jpg)
+
+As you can see, the first transaction made has a **value** of 1 ETH. We made this transaction so our
+account has enough value to cover the price of gas.
+
+The second transaction that was when we clicked the "Mint Item" button. Click on the transaction
+hash to see the "Transaction Details". That is what our train looks like.
+
+### ![data cart](/images/data-cart.svg) Input Data
+
+The data cart carries what the smart contract will consume, as well as instructions about which
+machine (function) in the factory (smart contract) we want to execute.
+
+![function called](/images/function-called.jpg)
+
+Look familiar?
+
+![function data](/images/function-data.jpg)
+
+But what's up with the data cart?
+
+The data cart contains instructions that your robot butler (wallet) took care of for you.
 
 ### Gas ![gas cart](/images/gas-cart.svg)
 
-As we covered, transactions need gas. Can you remember the reasons?
+Of course, transactions need gas. Can you remember the reasons?
 How much gas do we need? How much gas will we pay? The total cost of gas depends on two things:
 
 1. What our input data is doing
@@ -29,15 +61,6 @@ section.
 The same actions will always costs the same amount of gas units. But the price of gas will
 fluxuate along with the market, so transactions doing the same thing could cost different
 amounts at different times of day.
-
-### ![data cart](/images/data-cart.svg) Input Data
-
-The data cart is like the raw material the factory consumes. There is a lot to unpack
-with the data cart, and it will make more sense to cover it in the smart contract
-section.
-
-For now just think of the input data as raw material that the factory will change into
-something else.
 
 ### Signature ![signature cart](/images/signature-cart.svg)
 
@@ -53,19 +76,6 @@ smart contract. What does our transaction look like in this case? How do we know
 
 Mint yourself **one** NFT in the "My NFTs" tab, then we'll have something to look at.
 When your done, click on the "Transfers" tab, it should look like the picture below.
-
-![transfers tab](/images/transactions-tab.jpg)
-
-Then click on your address to look at all the transactions you've made so far. It should look like
-this:
-
-![transfers history](/images/transaction-history.jpg)
-
-As you can see, the first transaction made has a **value** of 1 ETH. We made this transaction so our
-account has enough value to cover the price of gas.
-
-The second transaction that was made was when we clicked the "Mint Item" button. Click on the transaction
-hash to see exactly what that transaction looked like. Then we can talk about how that "train" looks.
 
 <!-- <details>
   <summary>Where is the transaction "from" the contract "to" my address?</summary>
