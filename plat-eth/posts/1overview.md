@@ -40,7 +40,7 @@ Platinum-Ethereum. I chose the name because to "platinum," a game means earning 
 consume endless blogs, videos, or documentation. You have the choice to lean into as much or
 as little of the roads offered.
 
-# Where the anchors lay
+## Where the anchors lay
 
 The world of Platinum-Eth is the context in which the anchors lay. The locations, characters,
 and events are the anchors to which the knowledge is tied. The dynamics between the context and
@@ -50,7 +50,7 @@ Stories form the dynamics of the world. This design choice was made because brai
 better evolved to recall stories that involve places, people, and events we can picture
 in our heads rather than remembering procedures involving concepts, objects, and code.
 
-# That is to say...
+## That is to say...
 
 Do not overlook the analogies within Platinum-Eth. I encourage you to do your own research
 if the analogies do not sit well with you, only you know how you learn best.
@@ -75,104 +75,79 @@ a model you can extend and modify to suit your needs! Good Luck!
 
 ---
 
-<!-- A cannonical universe where concepts in Web3 are explained through one long continous analogy.
+# FEED BACK
 
-A space faring civilization is building planet sized blocks in outer space. On these blocks exist
-train stations (EOAs), factories (smart contrats), orbiting space ships (node validators), and
-flying trains (trainsactions/transactions). At the core of each space block is a tree.
+Feed back will be different from newbies and veterans, so I split the surveys.
 
-There are characters, events, and a narrative designed to explain Web3 in a fun and memorable way.
+Newbies tell me how the course **feels**, vets tell me how the course **is**.
 
-Plat-Eth currently is under construction. In its first phase, it will be a series of articles
-explaining concepts people encounter while going through Speed Run Ethereum. It assumes zero
-knowledge and leaves nothing in SRE challenges unexplained.
+Please read details about the survey questions before taking it. This is to improve the
+accuracy of your much appreciated feedback. Thanks!
 
-## Why Platinum-Ethereum
+I prefer overly harsh critisim than overly nice, I'm ready to throw it all out if I have to.
+I serve the public!
 
-Learning about Web3 and its technology is hard and daunting. The pitfalls I identified were the
-lack of holisitic explanations, and poor strategies for conceptualizing and remembering how Web3
-is built, and how to make meaningful contributions. A lot of resources explains concepts in a
-vacuum, or with poor context of the bigger picture. Concepts are also explained literally instead
-of metaphorically, making them hard to remember because information is not packaged in a human-brain
-friendly way.
+## FEED BACK from newbies
 
-## How is Platinum-Ethereum made?
+Platinum-Ethereum is everything I know about the blockchain so far. It solves my problems and
+questions **I** used to have. This was the only logical starting point for me, but of course
+this course isn't for me it's for **you**!
 
-Plat-Eth is built around a pedagogy I developed through reading books on teaching and learning, and
-having extensive conversations about them with my peers. Here is the breakdown of the pedagogy.
+##### Idea Building
 
-### Models
+How well do the concepts build on each other? I designed it so that there is **just enough**
+information to move onto a different concept. There should be enough information that new
+concepts are not **too** foreign, and not so much information that you feel overwhelmed.
+How well did I accomplish the goal?
 
-I wrote an article about models on Medium that goes into more detail [here](https://medium.com/@ayechansant/5-steps-to-learn-anything-using-models-db7dadb1e492).
+NOTE: Learning requires discomfort, my job is to lower the discomfort I can't abolish it.
 
-Platinum-Eth was born from a discussion with a friend about conceptualizing things through a model.
-We concluded that understanding (it was sort of an epistemological conversation)
-is best viewed through the lens of models.
-People who understand things quicker than others have a better model built into their
-heads.
+##### Tone
 
-A pre-built model is a large part of the value Plat-Eth brings to people. Learning
-is about lowering the friction between gaining and remembering information. If people
-are given a model, they don't have to spend time building their own.
+How do you like the tone? My goal was to write in a fun, inquisitive, and engaging
+manner, similar to Speed Run Eth. If the tone is too fun, too inquisitive, and too engaging
+its probably full of fluff which is not what I'm aiming for. How well did I accomplish this
+goal?
 
-### A Learning Path
+##### Stories (both newbs and vets)
 
-Standing on the shoulders of giants, Plat-Eth is meant to be experienced alongside Speed Run Ethereum.
-This design choice was made so that people could learn about a concept, and either immediately apply
-their knowledge, or see the concept work in front of them through the SRE challenges.
+How do you like the stories? My goal was to wrap complexity into simple stories that conveys
+the utility of the complexity without revealing the complexity. How well did I accomplish this
+goal?
 
-### A Memory Device
+Are the stories memorable, can you picture Platinum-Eth in your head? This is supposed to be a
+cannonical universe after all, although this is just the start.
 
-What makes Plat-Eth different from other Web3 educational resources is its emmbedded memory framework.
-Its designed specifically to make information easy to recall at a later date, decreasing the amount of
-times people need to re-learn a concept if forgotten. The memory recall framework comes from the book
-[Unlimited Memory](https://www.unlimitedfocus.info/) by Kevin Horsely.
+##### Active Recall Exercizes
 
-I've applied teachings from this book in my own life to great success. I also wrote an article about the
-power of stories and a real example in [this](https://medium.com/@ayechansant/you-already-have-photographic-memory-check-this-out-d4d198d13048)
-Medium article.
+How do you feel about these? Are they dumb? Did you think through them or did you scroll past.
+I do that a lot full disclaimer but if they help a few people that's a win. Assuming people use
+them, my goal with active recall was to ask beyond-surface-level questions. Maybe even open
+ended at times.
 
-The issue is that creating these
-memory shortcuts takes time and planning. Plat-Eth offloads the work onto me, where I am the one embedding
-the memory framework into concepts, so users can just lay back, relax, read, learn, and remember! -->
+My aim was to create questions similar to a [Socratic Seminar](https://www.teachthought.com/critical-thinking/definition-of-socratic-seminar/)
+where people just discuss a topic to gain insight about it.
 
-<!-- # The Ethereum Ecosystem Overview
+##### Paragraph Density
 
-The Ethereum ecosystem fundamentally is a network of accounts sending transactions
-to smart contracts, and other accounts. With this simple explanation, we can start
-building a model world for explanation, understanding, and remembering.
+This is more stylistic, but I hate fluff. Just get to the point! However when teaching you can
+lose some people if the text is too dry. To combine fun and information, I re-wrote the same ideas
+in different sentence structures to maximize information transfer while keeping the text short.
 
-What are our peices so far?
+To me it's like writing elegant flexible programs: it does a lot, but it's **short**. How well did
+I accomplish this goal?
 
-- Accounts
-- Smart Contracts
-- Transactions
+##### Pixel Art
 
-Let's lock these three things into memory with a story.
+I did it myself, the point is to add color and fun, while also illustrating visually and not just
+illustrating with descriptive text. If anyone is an artist and wants to make some for me, please!
 
-# Train Station
+##### Jargon Alert!
 
-Accounts are train stations owned by real people. These train stations is where
-people keep their money and belongings. To communicate with other accounts,
-train stations send transactions to each other.
+Where you also confused about those terms? What other terms should I add that you hear people throw
+around and you're like "I have no idea what that means". My goal was to define jargon, and also tell
+you what it **really** means. How well did I do this?
 
-# Trains
+## FEED BACK from veterans
 
-Transactions are like trains, add an "i" to transaction to make the word trainsaction.
-These trains carry materials for factories, gas, money, and other things we'll cover
-in depth later.
-
-# Factories
-
-Smart Contracts are another kind of account, but these accounts behave more like factories
-than train stations. Trains unload their material at factories, the factories proccesses
-the material, stores material, and sends a new train back to the train station. Sometimes
-factories send trains to other factories. Smart contracts can do a lot of things, so we
-won't explain them in this summary.
-
-# Combining train stations, trains, and factories to build our world
-
-Our world is sci-fi. Imagine a long row of planet sized blocks in outer space, connected
-by a thick chain. On the surface of the blocks, there are thousands of train stations and
-factories spread out with millions of trains flying through the air to different blocks.
-Welcome to the world of Platinum Ethereum. -->
+How's the content, structure, and flow?

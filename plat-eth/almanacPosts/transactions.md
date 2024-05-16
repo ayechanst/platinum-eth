@@ -79,7 +79,7 @@ tokenIdCounter.increment();
 But remember that the opperations are really just bytecode that's derrived from the Solidity code
 shown above.
 
-2. How much gas costs per unit
+**2. How much gas costs per unit**
 
 The same opperations will always costs the same amount of gas units. But the price of gas will
 fluxuate, so identical transactions vary in cost as time progresses.
