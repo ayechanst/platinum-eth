@@ -78,9 +78,7 @@ a model you can extend and modify to suit your needs! Good Luck!
 # FEED BACK
 
 Feed back will be different from newbies and veterans, so I split the surveys.
-
 Newbies tell me how the course **feels**, vets tell me how the course **is**.
-
 Please read details about the survey questions before taking it. This is to improve the
 accuracy of your much appreciated feedback. Thanks!
 
@@ -93,7 +91,7 @@ Platinum-Ethereum is everything I know about the blockchain so far. It solves my
 questions **I** used to have. This was the only logical starting point for me, but of course
 this course isn't for me it's for **you**!
 
-##### Idea Building
+**Idea Building**
 
 How well do the concepts build on each other? I designed it so that there is **just enough**
 information to move onto a different concept. There should be enough information that new
@@ -102,14 +100,14 @@ How well did I accomplish the goal?
 
 NOTE: Learning requires discomfort, my job is to lower the discomfort I can't abolish it.
 
-##### Tone
+**Tone**
 
 How do you like the tone? My goal was to write in a fun, inquisitive, and engaging
 manner, similar to Speed Run Eth. If the tone is too fun, too inquisitive, and too engaging
 its probably full of fluff which is not what I'm aiming for. How well did I accomplish this
 goal?
 
-##### Stories (both newbs and vets)
+**Stories (both newbs and vets)**
 
 How do you like the stories? My goal was to wrap complexity into simple stories that conveys
 the utility of the complexity without revealing the complexity. How well did I accomplish this
@@ -118,7 +116,7 @@ goal?
 Are the stories memorable, can you picture Platinum-Eth in your head? This is supposed to be a
 cannonical universe after all, although this is just the start.
 
-##### Active Recall Exercizes
+**Active Recall Exercizes**
 
 How do you feel about these? Are they dumb? Did you think through them or did you scroll past.
 I do that a lot full disclaimer but if they help a few people that's a win. Assuming people use
@@ -128,7 +126,7 @@ ended at times.
 My aim was to create questions similar to a [Socratic Seminar](https://www.teachthought.com/critical-thinking/definition-of-socratic-seminar/)
 where people just discuss a topic to gain insight about it.
 
-##### Paragraph Density
+**Paragraph Density**
 
 This is more stylistic, but I hate fluff. Just get to the point! However when teaching you can
 lose some people if the text is too dry. To combine fun and information, I re-wrote the same ideas
@@ -137,12 +135,12 @@ in different sentence structures to maximize information transfer while keeping 
 To me it's like writing elegant flexible programs: it does a lot, but it's **short**. How well did
 I accomplish this goal?
 
-##### Pixel Art
+**Pixel Art**
 
 I did it myself, the point is to add color and fun, while also illustrating visually and not just
 illustrating with descriptive text. If anyone is an artist and wants to make some for me, please!
 
-##### Jargon Alert!
+**Jargon Alert!**
 
 Where you also confused about those terms? What other terms should I add that you hear people throw
 around and you're like "I have no idea what that means". My goal was to define jargon, and also tell
