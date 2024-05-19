@@ -135,17 +135,38 @@ in different sentence structures to maximize information transfer while keeping 
 To me it's like writing elegant flexible programs: it does a lot, but it's **short**. How well did
 I accomplish this goal?
 
-**Pixel Art**
-
-I did it myself, the point is to add color and fun, while also illustrating visually and not just
-illustrating with descriptive text. If anyone is an artist and wants to make some for me, please!
-
 **Jargon Alert!**
 
 Where you also confused about those terms? What other terms should I add that you hear people throw
 around and you're like "I have no idea what that means". My goal was to define jargon, and also tell
 you what it **really** means. How well did I do this?
 
+**Syntax**
+
+Are there any ambigous sentences?
+
 ## FEED BACK from veterans
 
 How's the content, structure, and flow?
+
+**Scope Relevance**
+
+My goal here was to introduce concepts only as they came up in the Speed Run Eth challenges as not
+to overwhelm learners, and also make sure they immediately saw the concept being brought up. How
+well was this accomplished?
+
+**Metaphors**
+
+From the way you visualize the block chain as a model, how relevant are the metaphors? My goal was
+to link Web3 ideas to the real world in one continuous metaphor. How well did I accomplish this?
+
+**Target Audience**
+
+My target audience are new people who know nothing about the blockchain, does the content reflect
+that? Is anything too "out of reach" or irrelevant for most jobs in Web3?
+
+**Correctness/Syntax**
+
+Is anything incorrect? Do any of the stories/metaphors misrepresent concepts? Metaphors are not
+100% accurate but is anything "too" inaccurate? Are there any words that misrepresent concepts?
+One word can change the entire meaning of a sentence.
