@@ -86,40 +86,40 @@ Platinum-Ethereum is everything I know about the blockchain so far. It solves my
 questions **I** used to have. This was the only logical starting point for me, but
 this course isn't for me it's for **you**!
 
-**Idea Building**
+**Idea Building:**
 
 My goal was to introduce **just enough** information required to move onto the next concept,
 not overwhelm or skip over. How well did I do?
 
-**Tone**
+**Tone:**
 
 My goal was to write in a engaging and inquisitive manner, without much fluff. How well did
 I accomplish this goal?
 
-**Stories (both newbs and vets)**
+**Stories (both newbs and vets):**
 
 My goal was to wrap complexity into simple stories. The stories should convey
 the utility of the complexity without revealing the complexity. Stories should also be memorable.
 How well did I accomplish this goal?
 
-**Active Recall Exercizes**
+**Active Recall Exercizes:**
 
 My goal with active recall was to ask beyond-surface-level questions. They should be somewhat
 open ended. My aim was to create questions similar to a
 [Socratic Seminar](https://www.teachthought.com/critical-thinking/definition-of-socratic-seminar/)
 where people just discuss a topic to gain insight about it.
 
-**Paragraph Density**
+**Paragraph Density:**
 
 My goal here was to convey ideas in less words, like writing an elegant program: it does a lot, but
 it's **short**. How well did I accomplish this goal?
 
-**Jargon Alert!**
+**Jargon Alert:**
 
 How useful were these? Are there any other terms I should add? Is a Q&A form of defining jargon
 helpful or should I directly define it? How well did I define terms overall?
 
-**Syntax**
+**Syntax:**
 
 Are there any ambigous sentences where you weren't sure what I was trying to say?
 
@@ -127,30 +127,29 @@ Are there any ambigous sentences where you weren't sure what I was trying to say
 
 How's the content, structure, and flow?
 
-**Scope Relevance**
+**Scope Relevance:**
 
 My goal here was to introduce concepts only as they came up in the Speed Run Eth challenges as not
 to overwhelm learners, and also make sure they immediately saw the concept being brought up. How
 well was this accomplished?
 
-**Stories (both newbs and vets)**
+**Stories (both newbs and vets):**
 
 My goal was to wrap complexity into simple stories. The stories should convey
 the utility of the complexity without revealing the complexity. How well did I accomplish this
 goal?
 
-**Metaphors**
+**Metaphors:**
 
 From the way you visualize the block chain as a model, how relevant are the metaphors? My goal was
 to link Web3 ideas to the real world in one continuous metaphor. How well did I accomplish this?
 
-**Target Audience**
+**Target Audience:**
 
 My target audience are new people who know nothing about the blockchain, does the content reflect
 that? Is anything too "out of reach" or irrelevant for most jobs in Web3?
 
-**Correctness/Syntax**
+**Correctness/Syntax:**
 
 Is anything incorrect? Do any of the stories/metaphors misrepresent concepts? Metaphors are not
 100% accurate but is anything "too" inaccurate? Are there any words that misrepresent concepts?
-One word can change the entire meaning of a sentence.
