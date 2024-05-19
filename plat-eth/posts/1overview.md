@@ -77,73 +77,51 @@ a model you can extend and modify to suit your needs! Good Luck!
 
 # FEED BACK
 
-Feed back will be different from newbies and veterans, so I split the surveys.
+Feed back will be different from beginners and veterans, so I split the surveys.
 Newbies tell me how the course **feels**, vets tell me how the course **is**.
-Please read details about the survey questions before taking it. This is to improve the
-accuracy of your much appreciated feedback. Thanks!
-
-I prefer overly harsh critisim than overly nice, I'm ready to throw it all out if I have to.
-I serve the public!
 
 ## FEED BACK from newbies
 
 Platinum-Ethereum is everything I know about the blockchain so far. It solves my problems and
-questions **I** used to have. This was the only logical starting point for me, but of course
+questions **I** used to have. This was the only logical starting point for me, but
 this course isn't for me it's for **you**!
 
 **Idea Building**
 
-How well do the concepts build on each other? I designed it so that there is **just enough**
-information to move onto a different concept. There should be enough information that new
-concepts are not **too** foreign, and not so much information that you feel overwhelmed.
-How well did I accomplish the goal?
-
-NOTE: Learning requires discomfort, my job is to lower the discomfort I can't abolish it.
+My goal was to introduce **just enough** information required to move onto the next concept,
+not overwhelm or skip over. How well did I do?
 
 **Tone**
 
-How do you like the tone? My goal was to write in a fun, inquisitive, and engaging
-manner, similar to Speed Run Eth. If the tone is too fun, too inquisitive, and too engaging
-its probably full of fluff which is not what I'm aiming for. How well did I accomplish this
-goal?
+My goal was to write in a engaging and inquisitive manner, without much fluff. How well did
+I accomplish this goal?
 
 **Stories (both newbs and vets)**
 
-How do you like the stories? My goal was to wrap complexity into simple stories that conveys
-the utility of the complexity without revealing the complexity. How well did I accomplish this
-goal?
-
-Are the stories memorable, can you picture Platinum-Eth in your head? This is supposed to be a
-cannonical universe after all, although this is just the start.
+My goal was to wrap complexity into simple stories. The stories should convey
+the utility of the complexity without revealing the complexity. Stories should also be memorable.
+How well did I accomplish this goal?
 
 **Active Recall Exercizes**
 
-How do you feel about these? Are they dumb? Did you think through them or did you scroll past.
-I do that a lot full disclaimer but if they help a few people that's a win. Assuming people use
-them, my goal with active recall was to ask beyond-surface-level questions. Maybe even open
-ended at times.
-
-My aim was to create questions similar to a [Socratic Seminar](https://www.teachthought.com/critical-thinking/definition-of-socratic-seminar/)
+My goal with active recall was to ask beyond-surface-level questions. They should be somewhat
+open ended. My aim was to create questions similar to a
+[Socratic Seminar](https://www.teachthought.com/critical-thinking/definition-of-socratic-seminar/)
 where people just discuss a topic to gain insight about it.
 
 **Paragraph Density**
 
-This is more stylistic, but I hate fluff. Just get to the point! However when teaching you can
-lose some people if the text is too dry. To combine fun and information, I re-wrote the same ideas
-in different sentence structures to maximize information transfer while keeping the text short.
-
-To me it's like writing elegant flexible programs: it does a lot, but it's **short**. How well did
-I accomplish this goal?
+My goal here was to convey ideas in less words, like writing an elegant program: it does a lot, but
+it's **short**. How well did I accomplish this goal?
 
 **Jargon Alert!**
 
-Where you also confused about those terms? What other terms should I add that you hear people throw
-around and you're like "I have no idea what that means". My goal was to define jargon, and also tell
-you what it **really** means. How well did I do this?
+How useful were these? Are there any other terms I should add? Is a Q&A form of defining jargon
+helpful or should I directly define it? How well did I define terms overall?
 
 **Syntax**
 
-Are there any ambigous sentences?
+Are there any ambigous sentences where you weren't sure what I was trying to say?
 
 ## FEED BACK from veterans
 
@@ -154,6 +132,12 @@ How's the content, structure, and flow?
 My goal here was to introduce concepts only as they came up in the Speed Run Eth challenges as not
 to overwhelm learners, and also make sure they immediately saw the concept being brought up. How
 well was this accomplished?
+
+**Stories (both newbs and vets)**
+
+My goal was to wrap complexity into simple stories. The stories should convey
+the utility of the complexity without revealing the complexity. How well did I accomplish this
+goal?
 
 **Metaphors**
 
